@@ -6,8 +6,6 @@
 //
 /*
 -order in the sample is not correct
--banner + collection heights??
--try sample ads: FB,twitter
 */
 //add my ad requests
 //readme file

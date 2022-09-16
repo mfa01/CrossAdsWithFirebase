@@ -30,6 +30,7 @@ public struct CrossAdModel: Codable, Advertizable {
     public var subTitle: String?
     public var type: CrossAdType?
     public var url: String?
+    public var backupUrl: String?
     public var view_freq: Int?
     public var click_freq: Int?
     public var backgroundColor: String?

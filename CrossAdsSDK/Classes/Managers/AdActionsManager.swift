@@ -11,8 +11,16 @@ import UIKit
 class AdActionsManager {
     
     static func adTapped(adModel: CrossAdModel?) {
-        if let urlString = adModel?.url, let url = URL(string: urlString) {
-            UIApplication.shared.open(url)
+        if let first = adModel?.url,
+           let backup = adModel?.backupUrl,
+           let firstUrl = URL(string: first),
+           let backupUrl = URL(string: backup) {
+            let application = UIApplication.shared
+            if application.canOpenURL(firstUrl) {
+                application.open(firstUrl)
+            } else {
+                application.open(backupUrl)
+            }
         }
         CrossAdsLogger.shared.adTapped(adModel: adModel)
     }

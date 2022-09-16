@@ -98,7 +98,6 @@ extension ViewController: UITableViewDataSource {
            indexPath.row > 0,
            tableItems[indexPath.row].isCrossAd == false {
             tableItems.insert(ad, at: indexPath.row)
-//            tableView.reloadRows(at: [indexPath], with: .automatic)
             tableView.reloadData()
             CrossAds.shared.dropAdItem(type: ad.type)
         }
