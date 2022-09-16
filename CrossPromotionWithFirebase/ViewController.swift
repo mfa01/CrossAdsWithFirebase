@@ -10,7 +10,6 @@ import CrossAdsSDK
 
 struct SampleStruct: Advertizable {
     var isCrossAd: Bool? = false
-    
     var name: String
     var age: String
     var city: String

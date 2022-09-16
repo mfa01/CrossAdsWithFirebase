@@ -10,7 +10,8 @@ import UIKit
 
 public extension UICollectionView {
     func registerCrossAdsCells() {
-        register(UINib(nibName: BannerCollectionViewCell.identifier, bundle: .currentBundle), forCellWithReuseIdentifier: BannerCollectionViewCell.identifier)
+        let bundle = Bundle(for: BannerCollectionViewCell.self)
+        register(UINib(nibName: BannerCollectionViewCell.identifier, bundle: bundle), forCellWithReuseIdentifier: BannerCollectionViewCell.identifier)
     }
     
     func dequeueBannerCell(crossAd: CrossAdModel, placeholderImage: UIImage?, height: CGFloat?, indexPath: IndexPath) -> BannerCollectionViewCell {
