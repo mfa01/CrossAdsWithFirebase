@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18DAA30E28D4BCDA00B2B828 /* cross_ads_closeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18DAA30D28D4BCDA00B2B828 /* cross_ads_closeButton.png */; };
 		18DE1EE028D379C9003D55BB /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE1EDE28D379C9003D55BB /* BannerCollectionViewCell.swift */; };
 		18DE1EE128D379C9003D55BB /* BannerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DE1EDF28D379C9003D55BB /* BannerCollectionViewCell.xib */; };
 		18DE1EE328D37A22003D55BB /* CollectionViewExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE1EE228D37A22003D55BB /* CollectionViewExtentions.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18DAA30D28D4BCDA00B2B828 /* cross_ads_closeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross_ads_closeButton.png; sourceTree = "<group>"; };
 		18DE1EDE28D379C9003D55BB /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
 		18DE1EDF28D379C9003D55BB /* BannerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerCollectionViewCell.xib; sourceTree = "<group>"; };
 		18DE1EE228D37A22003D55BB /* CollectionViewExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewExtentions.swift; sourceTree = "<group>"; };
@@ -211,6 +213,7 @@
 		18E27EB028C3FEB500311F8A /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				18DAA30D28D4BCDA00B2B828 /* cross_ads_closeButton.png */,
 				18E27EB128C3FEB500311F8A /* ColorExtentions.swift */,
 				18E27EB228C3FEB500311F8A /* TableViewExtentions.swift */,
 				18DE1EE228D37A22003D55BB /* CollectionViewExtentions.swift */,
@@ -335,6 +338,7 @@
 				18E27EBB28C3FEB500311F8A /* CrossAdsDetailedBannerTableViewCell.xib in Resources */,
 				18E27EC228C3FEB500311F8A /* CrossAdsMediumTableViewCell.xib in Resources */,
 				18E27EC428C3FEB500311F8A /* CrossAdsInterstitialViewController.xib in Resources */,
+				18DAA30E28D4BCDA00B2B828 /* cross_ads_closeButton.png in Resources */,
 				18DE1EE128D379C9003D55BB /* BannerCollectionViewCell.xib in Resources */,
 				18E27EC028C3FEB500311F8A /* CrossAdsInterstitialTableViewCell.xib in Resources */,
 			);
