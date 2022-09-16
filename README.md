@@ -12,13 +12,13 @@ Promote your apps for free, the idea is about adding native ads fetched from fir
 ![](BannerImage.png)
 
 - "detaildBanner"
-![](BannerDetails.png)
+![](BannerDetails.png = 200x)
 
 - medium
 ![(MediumAds.png)]
 
 - interstitial
-![(screenshot-interstitial.png)]
+![(screenshot-interstitial.png)]  = 200x
 
 - "bannerImageCollectionView"
 ![(screenshot-interstitial.png)]
