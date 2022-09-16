@@ -4,29 +4,33 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>BannerCollectionViewCell.nib</key>
+		<data>
+		7Vccv1+RSbP8ItmYk8iOqcCrEs4=
+		</data>
 		<key>CrossAdsBannerTableViewCell.nib</key>
 		<data>
-		0V063qoaXYLFs8H5R0tJaRpnP8c=
+		HHlRjluKnbuiqyWtopmwJ0df8LA=
 		</data>
 		<key>CrossAdsDetailedBannerTableViewCell.nib</key>
 		<data>
-		SXU6S+xasaSjrnF2xHyDjq5p8w8=
+		aoEyFyJIUhEC283TGEcWEiOkCug=
 		</data>
 		<key>CrossAdsInterstitialTableViewCell.nib</key>
 		<data>
-		jLsIsseO4BhS8ySGuADuulk9EA4=
+		6I3UmoKFUv4HKVvK6Q/4gqzof2I=
 		</data>
 		<key>CrossAdsInterstitialViewController.nib</key>
 		<data>
-		lMXyk0yev3BQtDFo0wCWZL5/0tU=
+		6L2vRHY9PdUZyYATpx+JIANXCSQ=
 		</data>
 		<key>CrossAdsMediumTableViewCell.nib</key>
 		<data>
-		sXyQHYgOIBtcwpjudsTekL7oTek=
+		+Bf6M3iMl8zcMPmzAnof/HZQZhc=
 		</data>
 		<key>Headers/CrossAdsSDK-Swift.h</key>
 		<data>
-		yEd/TGPlb8xV/aSXrOy0Kp0aLyc=
+		teGkrmI/ZuV2grl+qMH15Y0bnkQ=
 		</data>
 		<key>Headers/CrossAdsSDK.h</key>
 		<data>
@@ -34,79 +38,106 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		NwN7JVGHpPs/+Cm2lNkYntAxDME=
+		onTmvKLco7VUeBF6DnRe4mBauV4=
+		</data>
+		<key>Modules/CrossAdsSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		e2yyWpZggPu3pd9VXDbgDJnosQs=
+		</data>
+		<key>Modules/CrossAdsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		U3zp0KflikTL7npEmjXEiTPOap8=
 		</data>
 		<key>Modules/CrossAdsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		93SU2tLghLfRAic4c5iFZqm12eA=
+		RpFfhXYpCd3cc0DQjqRgO9lFfcc=
 		</data>
 		<key>Modules/CrossAdsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		1j8MOVJEwZ/bvxEoHbZcseIggj8=
+		U3zp0KflikTL7npEmjXEiTPOap8=
 		</data>
 		<key>Modules/CrossAdsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rDZCsIwljXH8LTSMBVHRF66vbsE=
+		5d8SX3YM6vLsnb9jiVq9Z4v+LnA=
+		</data>
+		<key>Modules/CrossAdsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		e2yyWpZggPu3pd9VXDbgDJnosQs=
+		</data>
+		<key>Modules/CrossAdsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		ZueV/zqa21teqtNYW5Nv9iKcLPE=
 		</data>
 		<key>Modules/CrossAdsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		DATkOMFse/kBFOjO5sVU6MA0sDo=
+		9wgpkES1iCRtJOpoIJpVcbG+SVU=
 		</data>
 		<key>Modules/CrossAdsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		sd7/xorB7xvPucpsKoh98gGkVC8=
+		ZueV/zqa21teqtNYW5Nv9iKcLPE=
 		</data>
 		<key>Modules/CrossAdsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		IjMIAk9j4qUPH6mNJ/iUEOBgsbo=
+		CC6Mr44SO+p457fk7SzYoiPQ/B8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		ks76MubXMnfc6DladvrJjB+iaRM=
+		pTkqQTMD2cXHaAbJlZD2OPxXmcY=
+		</data>
+		<key>cross_ads_closeButton.png</key>
+		<data>
+		fnGRJBmlsw4wxo7BgjMoOUs1dwo=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>BannerCollectionViewCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4gy2+4Sik0UEMGhYzcQqoMlpjeSD0f7jS1nxq7Xwt70=
+			</data>
+		</dict>
 		<key>CrossAdsBannerTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			91mUANwRkffyVn7vlyZW7gifDBkD2KyrvtOX7OWyCwo=
+			Lhz7389NYM6sjDkufviiDTmbeT9O+xd2w9VhME5izoY=
 			</data>
 		</dict>
 		<key>CrossAdsDetailedBannerTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WIgcF+8To8lpfJEe87Qpv61LUFrte4RgTAHldC10wFA=
+			nbvceHqZJLNX5w9E1rGfqZWmmT3k1ptGibIoz8c/Dag=
 			</data>
 		</dict>
 		<key>CrossAdsInterstitialTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NVxzIZ7rlu9cWyqGLcLS/Z193OLfH1TQwSsEUlpaZ/Q=
+			y5Q81qH/Iz7Uq0p5k+IjuNdzS9fGkdXk6K2SfJX/b54=
 			</data>
 		</dict>
 		<key>CrossAdsInterstitialViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KXUfo31XX5Lv0jd5Ovmmq9D4HoTYqD2GWcrCuyxU4rw=
+			GC3kJnmQrbXdx2d3k+EJHTioBpk/qLzVditSvRkNwcg=
 			</data>
 		</dict>
 		<key>CrossAdsMediumTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O4P11oSSZ6QigbqCWKJ15eZlH36ZucOyo5JikcFE5ug=
+			Izwb+cHFm1C6BbolcadOw5DvaVQrx++NUCTZLZGWPFs=
 			</data>
 		</dict>
 		<key>Headers/CrossAdsSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s95POai+3C1JxuPsJywzgshEGZg8n9Y/C2SGIzR7tBY=
+			ClHZEC1yVidcl/YPpKLKIBmCWke0hrDV9w+6SYXFKcI=
 			</data>
 		</dict>
 		<key>Headers/CrossAdsSDK.h</key>
@@ -116,53 +147,88 @@
 			aFTcixAcPOkbDucAJfONLi7leaEw/rxsVbabD6nPOfs=
 			</data>
 		</dict>
+		<key>Modules/CrossAdsSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vnm7UnTM6I2EIgYOdcTYlQ/BVTXsNIsdF1roTyUNRTQ=
+			</data>
+		</dict>
+		<key>Modules/CrossAdsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zpW43I7tfAUAAp1Kj+AwixGQ5sAwPfe39KslDhjEkpg=
+			</data>
+		</dict>
 		<key>Modules/CrossAdsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FuGT4KhRpIPhNiVSWDQhg2+JkdEtQ3fYzsnbDU//Kd8=
+			7IrfYcTzu08SQYNHhFmOmiiCxvfjyLiYgUrEXrqJ46Q=
 			</data>
 		</dict>
 		<key>Modules/CrossAdsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B3zxGSCipnP1je2/xC6rTxmFTEKt5hjqI3/EC4sLEMs=
+			zpW43I7tfAUAAp1Kj+AwixGQ5sAwPfe39KslDhjEkpg=
 			</data>
 		</dict>
 		<key>Modules/CrossAdsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rLVrxURejMKw1FZCDjudzid7JNCDAfhUbOXotcAJ1ts=
+			pzpEuMISyVsSSZ4ze9C4PWxcfUKzdtGBY5/jljnLgLE=
+			</data>
+		</dict>
+		<key>Modules/CrossAdsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vnm7UnTM6I2EIgYOdcTYlQ/BVTXsNIsdF1roTyUNRTQ=
+			</data>
+		</dict>
+		<key>Modules/CrossAdsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2iDOKKxlBy4Myho78e1PeENNZM5j7I2Es1aWfrqnEP4=
 			</data>
 		</dict>
 		<key>Modules/CrossAdsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CHOqvPcdOL2HkdSGAf035psR71YT/YzuK1j+avN4Dpo=
+			82+ja55H12GOmKKN6qXsRwX8cj4kytHEhMtrmeLhYis=
 			</data>
 		</dict>
 		<key>Modules/CrossAdsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a4ylRMX9ORkM3nJKffRZvtV7GK+/MuGnzzHLYGXHE5Q=
+			2iDOKKxlBy4Myho78e1PeENNZM5j7I2Es1aWfrqnEP4=
 			</data>
 		</dict>
 		<key>Modules/CrossAdsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5ndNOs/oZjfbznzMGm+mr360MRpSImiEsCWRkERztoM=
+			9q4jMPZdLbKES7xyLr+ycKiBvNnbJPw7vmHxKpKzvb4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EbF0TLPccf14KybGUj4bYXH5g43xIx+npjuSOXtGO40=
+			BpF/MSJfDoB275sq5JomtpzrzFGnRr61W1G2v9M8PAU=
+			</data>
+		</dict>
+		<key>cross_ads_closeButton.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yxGmW/1WgNXhqFQBewMxt3xuVUPSzyuMkdeQQQV4+40=
 			</data>
 		</dict>
 	</dict>

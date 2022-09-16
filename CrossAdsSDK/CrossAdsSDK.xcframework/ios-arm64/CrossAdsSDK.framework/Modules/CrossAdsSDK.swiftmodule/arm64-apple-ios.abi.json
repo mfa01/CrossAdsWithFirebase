@@ -1,0 +1,4519 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Presentation",
+        "printedName": "Presentation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "adModel",
+            "printedName": "adModel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CrossAdsSDK.CrossAdModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrossAdModel",
+                    "printedName": "CrossAdsSDK.CrossAdModel",
+                    "usr": "s:11CrossAdsSDK0A7AdModelV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK12PresentationV7adModelAA0a2AdF0VSgvp",
+            "mangledName": "$s11CrossAdsSDK12PresentationV7adModelAA0a2AdF0VSgvp",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CrossAdsSDK.CrossAdModel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CrossAdModel",
+                        "printedName": "CrossAdsSDK.CrossAdModel",
+                        "usr": "s:11CrossAdsSDK0A7AdModelV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK12PresentationV7adModelAA0a2AdF0VSgvg",
+                "mangledName": "$s11CrossAdsSDK12PresentationV7adModelAA0a2AdF0VSgvg",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CrossAdsSDK.CrossAdModel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CrossAdModel",
+                        "printedName": "CrossAdsSDK.CrossAdModel",
+                        "usr": "s:11CrossAdsSDK0A7AdModelV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK12PresentationV7adModelAA0a2AdF0VSgvs",
+                "mangledName": "$s11CrossAdsSDK12PresentationV7adModelAA0a2AdF0VSgvs",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK12PresentationV7adModelAA0a2AdF0VSgvM",
+                "mangledName": "$s11CrossAdsSDK12PresentationV7adModelAA0a2AdF0VSgvM",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "placeholderImage",
+            "printedName": "placeholderImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK12PresentationV16placeholderImageSo7UIImageCSgvp",
+            "mangledName": "$s11CrossAdsSDK12PresentationV16placeholderImageSo7UIImageCSgvp",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK12PresentationV16placeholderImageSo7UIImageCSgvg",
+                "mangledName": "$s11CrossAdsSDK12PresentationV16placeholderImageSo7UIImageCSgvg",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK12PresentationV16placeholderImageSo7UIImageCSgvs",
+                "mangledName": "$s11CrossAdsSDK12PresentationV16placeholderImageSo7UIImageCSgvs",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK12PresentationV16placeholderImageSo7UIImageCSgvM",
+                "mangledName": "$s11CrossAdsSDK12PresentationV16placeholderImageSo7UIImageCSgvM",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adHeight",
+            "printedName": "adHeight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK12PresentationV8adHeight14CoreFoundation7CGFloatVSgvp",
+            "mangledName": "$s11CrossAdsSDK12PresentationV8adHeight12CoreGraphics7CGFloatVSgvp",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGFloat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK12PresentationV8adHeight14CoreFoundation7CGFloatVSgvg",
+                "mangledName": "$s11CrossAdsSDK12PresentationV8adHeight12CoreGraphics7CGFloatVSgvg",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGFloat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK12PresentationV8adHeight14CoreFoundation7CGFloatVSgvs",
+                "mangledName": "$s11CrossAdsSDK12PresentationV8adHeight12CoreGraphics7CGFloatVSgvs",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK12PresentationV8adHeight14CoreFoundation7CGFloatVSgvM",
+                "mangledName": "$s11CrossAdsSDK12PresentationV8adHeight12CoreGraphics7CGFloatVSgvM",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11CrossAdsSDK12PresentationV",
+        "mangledName": "$s11CrossAdsSDK12PresentationV",
+        "moduleName": "CrossAdsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CrossAdsBaseTableViewCell",
+        "printedName": "CrossAdsBaseTableViewCell",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "awakeFromNib",
+            "printedName": "awakeFromNib()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CrossAdsSDK@objc(cs)CrossAdsBaseTableViewCell(im)awakeFromNib",
+            "mangledName": "$s11CrossAdsSDK0aB17BaseTableViewCellC12awakeFromNibyyF",
+            "moduleName": "CrossAdsSDK",
+            "overriding": true,
+            "objc_name": "awakeFromNib",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSelected",
+            "printedName": "setSelected(_:animated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CrossAdsSDK@objc(cs)CrossAdsBaseTableViewCell(im)setSelected:animated:",
+            "mangledName": "$s11CrossAdsSDK0aB17BaseTableViewCellC11setSelected_8animatedySb_SbtF",
+            "moduleName": "CrossAdsSDK",
+            "overriding": true,
+            "objc_name": "setSelected:animated:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(style:reuseIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CrossAdsBaseTableViewCell",
+                "printedName": "CrossAdsSDK.CrossAdsBaseTableViewCell",
+                "usr": "c:@M@CrossAdsSDK@objc(cs)CrossAdsBaseTableViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CellStyle",
+                "printedName": "UIKit.UITableViewCell.CellStyle",
+                "usr": "c:@E@UITableViewCellStyle"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CrossAdsSDK@objc(cs)CrossAdsBaseTableViewCell(im)initWithStyle:reuseIdentifier:",
+            "mangledName": "$s11CrossAdsSDK0aB17BaseTableViewCellC5style15reuseIdentifierACSo07UITablefG5StyleV_SSSgtcfc",
+            "moduleName": "CrossAdsSDK",
+            "overriding": true,
+            "implicit": true,
+            "intro_iOS": "3.0",
+            "objc_name": "initWithStyle:reuseIdentifier:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "Available"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CrossAdsSDK.CrossAdsBaseTableViewCell?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrossAdsBaseTableViewCell",
+                    "printedName": "CrossAdsSDK.CrossAdsBaseTableViewCell",
+                    "usr": "c:@M@CrossAdsSDK@objc(cs)CrossAdsBaseTableViewCell"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CrossAdsSDK@objc(cs)CrossAdsBaseTableViewCell(im)initWithCoder:",
+            "mangledName": "$s11CrossAdsSDK0aB17BaseTableViewCellC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "CrossAdsSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CrossAdsSDK@objc(cs)CrossAdsBaseTableViewCell",
+        "mangledName": "$s11CrossAdsSDK0aB17BaseTableViewCellC",
+        "moduleName": "CrossAdsSDK",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UITableViewCell",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UITableViewCell",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CrossAdsConfigration",
+        "printedName": "CrossAdsConfigration",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(analyticsEnabled:analyticsLogTitle:configName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CrossAdsConfigration",
+                "printedName": "CrossAdsSDK.CrossAdsConfigration",
+                "usr": "s:11CrossAdsSDK0aB12ConfigrationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11CrossAdsSDK0aB12ConfigrationV16analyticsEnabled0E8LogTitle10configNameACSb_S2Stcfc",
+            "mangledName": "$s11CrossAdsSDK0aB12ConfigrationV16analyticsEnabled0E8LogTitle10configNameACSb_S2Stcfc",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11CrossAdsSDK0aB12ConfigrationV",
+        "mangledName": "$s11CrossAdsSDK0aB12ConfigrationV",
+        "moduleName": "CrossAdsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseAnalytics",
+        "printedName": "FirebaseAnalytics",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Kingfisher",
+        "printedName": "Kingfisher",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CrossAdsInterstitialViewController",
+        "printedName": "CrossAdsInterstitialViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "showAd",
+            "printedName": "showAd(adModel:placeholderImage:inVC:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CrossAdsSDK.CrossAdModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrossAdModel",
+                    "printedName": "CrossAdsSDK.CrossAdModel",
+                    "usr": "s:11CrossAdsSDK0A7AdModelV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CrossAdsSDK0aB26InterstitialViewControllerC6showAd7adModel16placeholderImage4inVCyAA0ahJ0VSg_So7UIImageCSgSo06UIViewF0CtFZ",
+            "mangledName": "$s11CrossAdsSDK0aB26InterstitialViewControllerC6showAd7adModel16placeholderImage4inVCyAA0ahJ0VSg_So7UIImageCSgSo06UIViewF0CtFZ",
+            "moduleName": "CrossAdsSDK",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CrossAdsSDK@objc(cs)CrossAdsInterstitialViewController(im)viewDidLoad",
+            "mangledName": "$s11CrossAdsSDK0aB26InterstitialViewControllerC11viewDidLoadyyF",
+            "moduleName": "CrossAdsSDK",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CrossAdsInterstitialViewController",
+                "printedName": "CrossAdsSDK.CrossAdsInterstitialViewController",
+                "usr": "c:@M@CrossAdsSDK@objc(cs)CrossAdsInterstitialViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CrossAdsSDK@objc(cs)CrossAdsInterstitialViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s11CrossAdsSDK0aB26InterstitialViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "CrossAdsSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CrossAdsSDK.CrossAdsInterstitialViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrossAdsInterstitialViewController",
+                    "printedName": "CrossAdsSDK.CrossAdsInterstitialViewController",
+                    "usr": "c:@M@CrossAdsSDK@objc(cs)CrossAdsInterstitialViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CrossAdsSDK@objc(cs)CrossAdsInterstitialViewController(im)initWithCoder:",
+            "mangledName": "$s11CrossAdsSDK0aB26InterstitialViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "CrossAdsSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CrossAdsSDK@objc(cs)CrossAdsInterstitialViewController",
+        "mangledName": "$s11CrossAdsSDK0aB26InterstitialViewControllerC",
+        "moduleName": "CrossAdsSDK",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseRemoteConfig",
+        "printedName": "FirebaseRemoteConfig",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseCore",
+        "printedName": "FirebaseCore",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CrossAds",
+        "printedName": "CrossAds",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CrossAds",
+                "printedName": "CrossAdsSDK.CrossAds",
+                "usr": "s:11CrossAdsSDK0aB0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK0aB0C6sharedACvpZ",
+            "mangledName": "$s11CrossAdsSDK0aB0C6sharedACvpZ",
+            "moduleName": "CrossAdsSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrossAds",
+                    "printedName": "CrossAdsSDK.CrossAds",
+                    "usr": "s:11CrossAdsSDK0aB0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0aB0C6sharedACvgZ",
+                "mangledName": "$s11CrossAdsSDK0aB0C6sharedACvgZ",
+                "moduleName": "CrossAdsSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "items",
+            "printedName": "items",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CrossAdsSDK.CrossAdModel]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrossAdModel",
+                    "printedName": "CrossAdsSDK.CrossAdModel",
+                    "usr": "s:11CrossAdsSDK0A7AdModelV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK0aB0C5itemsSayAA0A7AdModelVGvp",
+            "mangledName": "$s11CrossAdsSDK0aB0C5itemsSayAA0A7AdModelVGvp",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CrossAdsSDK.CrossAdModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CrossAdModel",
+                        "printedName": "CrossAdsSDK.CrossAdModel",
+                        "usr": "s:11CrossAdsSDK0A7AdModelV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0aB0C5itemsSayAA0A7AdModelVGvg",
+                "mangledName": "$s11CrossAdsSDK0aB0C5itemsSayAA0A7AdModelVGvg",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CrossAdsSDK.CrossAdModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CrossAdModel",
+                        "printedName": "CrossAdsSDK.CrossAdModel",
+                        "usr": "s:11CrossAdsSDK0A7AdModelV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0aB0C5itemsSayAA0A7AdModelVGvs",
+                "mangledName": "$s11CrossAdsSDK0aB0C5itemsSayAA0A7AdModelVGvs",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0aB0C5itemsSayAA0A7AdModelVGvM",
+                "mangledName": "$s11CrossAdsSDK0aB0C5itemsSayAA0A7AdModelVGvM",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adsBannerType",
+            "printedName": "adsBannerType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CrossAdsSDK.CrossAdModel]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrossAdModel",
+                    "printedName": "CrossAdsSDK.CrossAdModel",
+                    "usr": "s:11CrossAdsSDK0A7AdModelV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK0aB0C13adsBannerTypeSayAA0A7AdModelVGvp",
+            "mangledName": "$s11CrossAdsSDK0aB0C13adsBannerTypeSayAA0A7AdModelVGvp",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CrossAdsSDK.CrossAdModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CrossAdModel",
+                        "printedName": "CrossAdsSDK.CrossAdModel",
+                        "usr": "s:11CrossAdsSDK0A7AdModelV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0aB0C13adsBannerTypeSayAA0A7AdModelVGvg",
+                "mangledName": "$s11CrossAdsSDK0aB0C13adsBannerTypeSayAA0A7AdModelVGvg",
+                "moduleName": "CrossAdsSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adsDetailedBannerType",
+            "printedName": "adsDetailedBannerType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CrossAdsSDK.CrossAdModel]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrossAdModel",
+                    "printedName": "CrossAdsSDK.CrossAdModel",
+                    "usr": "s:11CrossAdsSDK0A7AdModelV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK0aB0C21adsDetailedBannerTypeSayAA0A7AdModelVGvp",
+            "mangledName": "$s11CrossAdsSDK0aB0C21adsDetailedBannerTypeSayAA0A7AdModelVGvp",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CrossAdsSDK.CrossAdModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CrossAdModel",
+                        "printedName": "CrossAdsSDK.CrossAdModel",
+                        "usr": "s:11CrossAdsSDK0A7AdModelV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0aB0C21adsDetailedBannerTypeSayAA0A7AdModelVGvg",
+                "mangledName": "$s11CrossAdsSDK0aB0C21adsDetailedBannerTypeSayAA0A7AdModelVGvg",
+                "moduleName": "CrossAdsSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adsInterstitialType",
+            "printedName": "adsInterstitialType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CrossAdsSDK.CrossAdModel]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrossAdModel",
+                    "printedName": "CrossAdsSDK.CrossAdModel",
+                    "usr": "s:11CrossAdsSDK0A7AdModelV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK0aB0C19adsInterstitialTypeSayAA0A7AdModelVGvp",
+            "mangledName": "$s11CrossAdsSDK0aB0C19adsInterstitialTypeSayAA0A7AdModelVGvp",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CrossAdsSDK.CrossAdModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CrossAdModel",
+                        "printedName": "CrossAdsSDK.CrossAdModel",
+                        "usr": "s:11CrossAdsSDK0A7AdModelV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0aB0C19adsInterstitialTypeSayAA0A7AdModelVGvg",
+                "mangledName": "$s11CrossAdsSDK0aB0C19adsInterstitialTypeSayAA0A7AdModelVGvg",
+                "moduleName": "CrossAdsSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adsMediumType",
+            "printedName": "adsMediumType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CrossAdsSDK.CrossAdModel]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrossAdModel",
+                    "printedName": "CrossAdsSDK.CrossAdModel",
+                    "usr": "s:11CrossAdsSDK0A7AdModelV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK0aB0C13adsMediumTypeSayAA0A7AdModelVGvp",
+            "mangledName": "$s11CrossAdsSDK0aB0C13adsMediumTypeSayAA0A7AdModelVGvp",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CrossAdsSDK.CrossAdModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CrossAdModel",
+                        "printedName": "CrossAdsSDK.CrossAdModel",
+                        "usr": "s:11CrossAdsSDK0A7AdModelV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0aB0C13adsMediumTypeSayAA0A7AdModelVGvg",
+                "mangledName": "$s11CrossAdsSDK0aB0C13adsMediumTypeSayAA0A7AdModelVGvg",
+                "moduleName": "CrossAdsSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adsBannerCollectionViewType",
+            "printedName": "adsBannerCollectionViewType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CrossAdsSDK.CrossAdModel]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrossAdModel",
+                    "printedName": "CrossAdsSDK.CrossAdModel",
+                    "usr": "s:11CrossAdsSDK0A7AdModelV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK0aB0C27adsBannerCollectionViewTypeSayAA0A7AdModelVGvp",
+            "mangledName": "$s11CrossAdsSDK0aB0C27adsBannerCollectionViewTypeSayAA0A7AdModelVGvp",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CrossAdsSDK.CrossAdModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CrossAdModel",
+                        "printedName": "CrossAdsSDK.CrossAdModel",
+                        "usr": "s:11CrossAdsSDK0A7AdModelV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0aB0C27adsBannerCollectionViewTypeSayAA0A7AdModelVGvg",
+                "mangledName": "$s11CrossAdsSDK0aB0C27adsBannerCollectionViewTypeSayAA0A7AdModelVGvg",
+                "moduleName": "CrossAdsSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "dropAdItem",
+            "printedName": "dropAdItem(type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CrossAdsSDK.CrossAdType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrossAdType",
+                    "printedName": "CrossAdsSDK.CrossAdType",
+                    "usr": "s:11CrossAdsSDK0A6AdTypeO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CrossAdsSDK0aB0C10dropAdItem4typeyAA0aE4TypeOSg_tF",
+            "mangledName": "$s11CrossAdsSDK0aB0C10dropAdItem4typeyAA0aE4TypeOSg_tF",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pickAdItem",
+            "printedName": "pickAdItem(type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CrossAdsSDK.CrossAdModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrossAdModel",
+                    "printedName": "CrossAdsSDK.CrossAdModel",
+                    "usr": "s:11CrossAdsSDK0A7AdModelV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CrossAdsSDK.CrossAdType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrossAdType",
+                    "printedName": "CrossAdsSDK.CrossAdType",
+                    "usr": "s:11CrossAdsSDK0A6AdTypeO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CrossAdsSDK0aB0C10pickAdItem4typeAA0aE5ModelVSgAA0aE4TypeOSg_tF",
+            "mangledName": "$s11CrossAdsSDK0aB0C10pickAdItem4typeAA0aE5ModelVSgAA0aE4TypeOSg_tF",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(config:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CrossAdsConfigration",
+                "printedName": "CrossAdsSDK.CrossAdsConfigration",
+                "usr": "s:11CrossAdsSDK0aB12ConfigrationV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([CrossAdsSDK.CrossAdModel]?, FirebaseRemoteConfig.RemoteConfig?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "([CrossAdsSDK.CrossAdModel]?, FirebaseRemoteConfig.RemoteConfig?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[CrossAdsSDK.CrossAdModel]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[CrossAdsSDK.CrossAdModel]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CrossAdModel",
+                                "printedName": "CrossAdsSDK.CrossAdModel",
+                                "usr": "s:11CrossAdsSDK0A7AdModelV"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "FirebaseRemoteConfig.RemoteConfig?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RemoteConfig",
+                            "printedName": "FirebaseRemoteConfig.RemoteConfig",
+                            "usr": "c:objc(cs)FIRRemoteConfig"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CrossAdsSDK0aB0C5start6config10completionyAA0aB12ConfigrationV_ySayAA0A7AdModelVGSg_So15FIRRemoteConfigCSgs5Error_pSgtctF",
+            "mangledName": "$s11CrossAdsSDK0aB0C5start6config10completionyAA0aB12ConfigrationV_ySayAA0A7AdModelVGSg_So15FIRRemoteConfigCSgs5Error_pSgtctF",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11CrossAdsSDK0aB0C",
+        "mangledName": "$s11CrossAdsSDK0aB0C",
+        "moduleName": "CrossAdsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseRemoteConfig",
+        "printedName": "FirebaseRemoteConfig",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Advertizable",
+        "printedName": "Advertizable",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isCrossAd",
+            "printedName": "isCrossAd",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK12AdvertizableP02isA2AdSbSgvp",
+            "mangledName": "$s11CrossAdsSDK12AdvertizableP02isA2AdSbSgvp",
+            "moduleName": "CrossAdsSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK12AdvertizableP02isA2AdSbSgvg",
+                "mangledName": "$s11CrossAdsSDK12AdvertizableP02isA2AdSbSgvg",
+                "moduleName": "CrossAdsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : CrossAdsSDK.Advertizable>",
+                "sugared_genericSig": "<Self where Self : CrossAdsSDK.Advertizable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK12AdvertizableP02isA2AdSbSgvs",
+                "mangledName": "$s11CrossAdsSDK12AdvertizableP02isA2AdSbSgvs",
+                "moduleName": "CrossAdsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : CrossAdsSDK.Advertizable>",
+                "sugared_genericSig": "<Self where Self : CrossAdsSDK.Advertizable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK12AdvertizableP02isA2AdSbSgvM",
+                "mangledName": "$s11CrossAdsSDK12AdvertizableP02isA2AdSbSgvM",
+                "moduleName": "CrossAdsSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : CrossAdsSDK.Advertizable>",
+                "sugared_genericSig": "<Self where Self : CrossAdsSDK.Advertizable>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11CrossAdsSDK12AdvertizableP",
+        "mangledName": "$s11CrossAdsSDK12AdvertizableP",
+        "moduleName": "CrossAdsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CrossAdType",
+        "printedName": "CrossAdType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bannerImage",
+            "printedName": "bannerImage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CrossAdsSDK.CrossAdType.Type) -> CrossAdsSDK.CrossAdType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrossAdType",
+                    "printedName": "CrossAdsSDK.CrossAdType",
+                    "usr": "s:11CrossAdsSDK0A6AdTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CrossAdsSDK.CrossAdType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CrossAdType",
+                        "printedName": "CrossAdsSDK.CrossAdType",
+                        "usr": "s:11CrossAdsSDK0A6AdTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CrossAdsSDK0A6AdTypeO11bannerImageyA2CmF",
+            "mangledName": "$s11CrossAdsSDK0A6AdTypeO11bannerImageyA2CmF",
+            "moduleName": "CrossAdsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "detaildBanner",
+            "printedName": "detaildBanner",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CrossAdsSDK.CrossAdType.Type) -> CrossAdsSDK.CrossAdType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrossAdType",
+                    "printedName": "CrossAdsSDK.CrossAdType",
+                    "usr": "s:11CrossAdsSDK0A6AdTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CrossAdsSDK.CrossAdType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CrossAdType",
+                        "printedName": "CrossAdsSDK.CrossAdType",
+                        "usr": "s:11CrossAdsSDK0A6AdTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CrossAdsSDK0A6AdTypeO13detaildBanneryA2CmF",
+            "mangledName": "$s11CrossAdsSDK0A6AdTypeO13detaildBanneryA2CmF",
+            "moduleName": "CrossAdsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "medium",
+            "printedName": "medium",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CrossAdsSDK.CrossAdType.Type) -> CrossAdsSDK.CrossAdType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrossAdType",
+                    "printedName": "CrossAdsSDK.CrossAdType",
+                    "usr": "s:11CrossAdsSDK0A6AdTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CrossAdsSDK.CrossAdType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CrossAdType",
+                        "printedName": "CrossAdsSDK.CrossAdType",
+                        "usr": "s:11CrossAdsSDK0A6AdTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CrossAdsSDK0A6AdTypeO6mediumyA2CmF",
+            "mangledName": "$s11CrossAdsSDK0A6AdTypeO6mediumyA2CmF",
+            "moduleName": "CrossAdsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "interstitial",
+            "printedName": "interstitial",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CrossAdsSDK.CrossAdType.Type) -> CrossAdsSDK.CrossAdType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrossAdType",
+                    "printedName": "CrossAdsSDK.CrossAdType",
+                    "usr": "s:11CrossAdsSDK0A6AdTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CrossAdsSDK.CrossAdType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CrossAdType",
+                        "printedName": "CrossAdsSDK.CrossAdType",
+                        "usr": "s:11CrossAdsSDK0A6AdTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CrossAdsSDK0A6AdTypeO12interstitialyA2CmF",
+            "mangledName": "$s11CrossAdsSDK0A6AdTypeO12interstitialyA2CmF",
+            "moduleName": "CrossAdsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "bannerImageCollectionView",
+            "printedName": "bannerImageCollectionView",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CrossAdsSDK.CrossAdType.Type) -> CrossAdsSDK.CrossAdType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrossAdType",
+                    "printedName": "CrossAdsSDK.CrossAdType",
+                    "usr": "s:11CrossAdsSDK0A6AdTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CrossAdsSDK.CrossAdType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CrossAdType",
+                        "printedName": "CrossAdsSDK.CrossAdType",
+                        "usr": "s:11CrossAdsSDK0A6AdTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CrossAdsSDK0A6AdTypeO25bannerImageCollectionViewyA2CmF",
+            "mangledName": "$s11CrossAdsSDK0A6AdTypeO25bannerImageCollectionViewyA2CmF",
+            "moduleName": "CrossAdsSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CrossAdsSDK.CrossAdType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrossAdType",
+                    "printedName": "CrossAdsSDK.CrossAdType",
+                    "usr": "s:11CrossAdsSDK0A6AdTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11CrossAdsSDK0A6AdTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s11CrossAdsSDK0A6AdTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "CrossAdsSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK0A6AdTypeO8rawValueSSvp",
+            "mangledName": "$s11CrossAdsSDK0A6AdTypeO8rawValueSSvp",
+            "moduleName": "CrossAdsSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A6AdTypeO8rawValueSSvg",
+                "mangledName": "$s11CrossAdsSDK0A6AdTypeO8rawValueSSvg",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11CrossAdsSDK0A6AdTypeO",
+        "mangledName": "$s11CrossAdsSDK0A6AdTypeO",
+        "moduleName": "CrossAdsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CrossAdModel",
+        "printedName": "CrossAdModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isCrossAd",
+            "printedName": "isCrossAd",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK0A7AdModelV02isaD0SbSgvp",
+            "mangledName": "$s11CrossAdsSDK0A7AdModelV02isaD0SbSgvp",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV02isaD0SbSgvg",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV02isaD0SbSgvg",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV02isaD0SbSgvs",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV02isaD0SbSgvs",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV02isaD0SbSgvM",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV02isaD0SbSgvM",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK0A7AdModelV2idSSvp",
+            "mangledName": "$s11CrossAdsSDK0A7AdModelV2idSSvp",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV2idSSvg",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV2idSSvg",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV2idSSvs",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV2idSSvs",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV2idSSvM",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV2idSSvM",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK0A7AdModelV5imageSSSgvp",
+            "mangledName": "$s11CrossAdsSDK0A7AdModelV5imageSSSgvp",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV5imageSSSgvg",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV5imageSSSgvg",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV5imageSSSgvs",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV5imageSSSgvs",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV5imageSSSgvM",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV5imageSSSgvM",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mainImage",
+            "printedName": "mainImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK0A7AdModelV9mainImageSSSgvp",
+            "mangledName": "$s11CrossAdsSDK0A7AdModelV9mainImageSSSgvp",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV9mainImageSSSgvg",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV9mainImageSSSgvg",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV9mainImageSSSgvs",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV9mainImageSSSgvs",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV9mainImageSSSgvM",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV9mainImageSSSgvM",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK0A7AdModelV5titleSSSgvp",
+            "mangledName": "$s11CrossAdsSDK0A7AdModelV5titleSSSgvp",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV5titleSSSgvg",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV5titleSSSgvg",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV5titleSSSgvs",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV5titleSSSgvs",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV5titleSSSgvM",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV5titleSSSgvM",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "actionButtonTitle",
+            "printedName": "actionButtonTitle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK0A7AdModelV17actionButtonTitleSSSgvp",
+            "mangledName": "$s11CrossAdsSDK0A7AdModelV17actionButtonTitleSSSgvp",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV17actionButtonTitleSSSgvg",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV17actionButtonTitleSSSgvg",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV17actionButtonTitleSSSgvs",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV17actionButtonTitleSSSgvs",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV17actionButtonTitleSSSgvM",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV17actionButtonTitleSSSgvM",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "subTitle",
+            "printedName": "subTitle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK0A7AdModelV8subTitleSSSgvp",
+            "mangledName": "$s11CrossAdsSDK0A7AdModelV8subTitleSSSgvp",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV8subTitleSSSgvg",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV8subTitleSSSgvg",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV8subTitleSSSgvs",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV8subTitleSSSgvs",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV8subTitleSSSgvM",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV8subTitleSSSgvM",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CrossAdsSDK.CrossAdType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrossAdType",
+                    "printedName": "CrossAdsSDK.CrossAdType",
+                    "usr": "s:11CrossAdsSDK0A6AdTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK0A7AdModelV4typeAA0aD4TypeOSgvp",
+            "mangledName": "$s11CrossAdsSDK0A7AdModelV4typeAA0aD4TypeOSgvp",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CrossAdsSDK.CrossAdType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CrossAdType",
+                        "printedName": "CrossAdsSDK.CrossAdType",
+                        "usr": "s:11CrossAdsSDK0A6AdTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV4typeAA0aD4TypeOSgvg",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV4typeAA0aD4TypeOSgvg",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CrossAdsSDK.CrossAdType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CrossAdType",
+                        "printedName": "CrossAdsSDK.CrossAdType",
+                        "usr": "s:11CrossAdsSDK0A6AdTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV4typeAA0aD4TypeOSgvs",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV4typeAA0aD4TypeOSgvs",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV4typeAA0aD4TypeOSgvM",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV4typeAA0aD4TypeOSgvM",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK0A7AdModelV3urlSSSgvp",
+            "mangledName": "$s11CrossAdsSDK0A7AdModelV3urlSSSgvp",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV3urlSSSgvg",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV3urlSSSgvg",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV3urlSSSgvs",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV3urlSSSgvs",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV3urlSSSgvM",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV3urlSSSgvM",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backupUrl",
+            "printedName": "backupUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK0A7AdModelV9backupUrlSSSgvp",
+            "mangledName": "$s11CrossAdsSDK0A7AdModelV9backupUrlSSSgvp",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV9backupUrlSSSgvg",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV9backupUrlSSSgvg",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV9backupUrlSSSgvs",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV9backupUrlSSSgvs",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV9backupUrlSSSgvM",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV9backupUrlSSSgvM",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "view_freq",
+            "printedName": "view_freq",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK0A7AdModelV9view_freqSiSgvp",
+            "mangledName": "$s11CrossAdsSDK0A7AdModelV9view_freqSiSgvp",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV9view_freqSiSgvg",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV9view_freqSiSgvg",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV9view_freqSiSgvs",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV9view_freqSiSgvs",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV9view_freqSiSgvM",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV9view_freqSiSgvM",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "click_freq",
+            "printedName": "click_freq",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK0A7AdModelV10click_freqSiSgvp",
+            "mangledName": "$s11CrossAdsSDK0A7AdModelV10click_freqSiSgvp",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV10click_freqSiSgvg",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV10click_freqSiSgvg",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV10click_freqSiSgvs",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV10click_freqSiSgvs",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV10click_freqSiSgvM",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV10click_freqSiSgvM",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundColor",
+            "printedName": "backgroundColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK0A7AdModelV15backgroundColorSSSgvp",
+            "mangledName": "$s11CrossAdsSDK0A7AdModelV15backgroundColorSSSgvp",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV15backgroundColorSSSgvg",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV15backgroundColorSSSgvg",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV15backgroundColorSSSgvs",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV15backgroundColorSSSgvs",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV15backgroundColorSSSgvM",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV15backgroundColorSSSgvM",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allowDismissAfter",
+            "printedName": "allowDismissAfter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK0A7AdModelV17allowDismissAfterSdSgvp",
+            "mangledName": "$s11CrossAdsSDK0A7AdModelV17allowDismissAfterSdSgvp",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV17allowDismissAfterSdSgvg",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV17allowDismissAfterSdSgvg",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV17allowDismissAfterSdSgvs",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV17allowDismissAfterSdSgvs",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV17allowDismissAfterSdSgvM",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV17allowDismissAfterSdSgvM",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "height",
+            "printedName": "height",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CrossAdsSDK0A7AdModelV6height14CoreFoundation7CGFloatVSgvp",
+            "mangledName": "$s11CrossAdsSDK0A7AdModelV6height12CoreGraphics7CGFloatVSgvp",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGFloat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV6height14CoreFoundation7CGFloatVSgvg",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV6height12CoreGraphics7CGFloatVSgvg",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGFloat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV6height14CoreFoundation7CGFloatVSgvs",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV6height12CoreGraphics7CGFloatVSgvs",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CrossAdsSDK0A7AdModelV6height14CoreFoundation7CGFloatVSgvM",
+                "mangledName": "$s11CrossAdsSDK0A7AdModelV6height12CoreGraphics7CGFloatVSgvM",
+                "moduleName": "CrossAdsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CrossAdModel",
+                "printedName": "CrossAdsSDK.CrossAdModel",
+                "usr": "s:11CrossAdsSDK0A7AdModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11CrossAdsSDK0A7AdModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11CrossAdsSDK0A7AdModelV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "CrossAdsSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CrossAdsSDK0A7AdModelV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11CrossAdsSDK0A7AdModelV6encode2toys7Encoder_p_tKF",
+            "moduleName": "CrossAdsSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11CrossAdsSDK0A7AdModelV",
+        "mangledName": "$s11CrossAdsSDK0A7AdModelV",
+        "moduleName": "CrossAdsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Advertizable",
+            "printedName": "Advertizable",
+            "usr": "s:11CrossAdsSDK12AdvertizableP",
+            "mangledName": "$s11CrossAdsSDK12AdvertizableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CrossAdsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BannerCollectionViewCell",
+        "printedName": "BannerCollectionViewCell",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BannerCollectionViewCell",
+                "printedName": "CrossAdsSDK.BannerCollectionViewCell",
+                "usr": "c:@M@CrossAdsSDK@objc(cs)BannerCollectionViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CrossAdsSDK@objc(cs)BannerCollectionViewCell(im)initWithFrame:",
+            "mangledName": "$s11CrossAdsSDK24BannerCollectionViewCellC5frameACSo6CGRectV_tcfc",
+            "moduleName": "CrossAdsSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CrossAdsSDK.BannerCollectionViewCell?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BannerCollectionViewCell",
+                    "printedName": "CrossAdsSDK.BannerCollectionViewCell",
+                    "usr": "c:@M@CrossAdsSDK@objc(cs)BannerCollectionViewCell"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CrossAdsSDK@objc(cs)BannerCollectionViewCell(im)initWithCoder:",
+            "mangledName": "$s11CrossAdsSDK24BannerCollectionViewCellC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "CrossAdsSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CrossAdsSDK@objc(cs)BannerCollectionViewCell",
+        "mangledName": "$s11CrossAdsSDK24BannerCollectionViewCellC",
+        "moduleName": "CrossAdsSDK",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UICollectionViewCell",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UICollectionViewCell",
+          "UIKit.UICollectionReusableView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UICollectionView",
+        "printedName": "UICollectionView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "registerCrossAdsCells",
+            "printedName": "registerCrossAdsCells()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So16UICollectionViewC11CrossAdsSDKE08registercD5CellsyyF",
+            "mangledName": "$sSo16UICollectionViewC11CrossAdsSDKE08registercD5CellsyyF",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dequeueBannerCell",
+            "printedName": "dequeueBannerCell(crossAd:placeholderImage:height:indexPath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BannerCollectionViewCell",
+                "printedName": "CrossAdsSDK.BannerCollectionViewCell",
+                "usr": "c:@M@CrossAdsSDK@objc(cs)BannerCollectionViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CrossAdModel",
+                "printedName": "CrossAdsSDK.CrossAdModel",
+                "usr": "s:11CrossAdsSDK0A7AdModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So16UICollectionViewC11CrossAdsSDKE17dequeueBannerCell7crossAd16placeholderImage6height9indexPathAC0g10CollectionbH0CAC0cJ5ModelV_So7UIImageCSg14CoreFoundation7CGFloatVSg0T005IndexO0VtF",
+            "mangledName": "$sSo16UICollectionViewC11CrossAdsSDKE17dequeueBannerCell7crossAd16placeholderImage6height9indexPathAC0g10CollectionbH0CAC0cJ5ModelV_So7UIImageCSg12CoreGraphics7CGFloatVSg10Foundation05IndexO0VtF",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UICollectionView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "6.0",
+        "objc_name": "UICollectionView",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIScrollView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIScrollView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UITableView",
+        "printedName": "UITableView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "registerCrossAdsCells",
+            "printedName": "registerCrossAdsCells()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITableViewC11CrossAdsSDKE08registercD5CellsyyF",
+            "mangledName": "$sSo11UITableViewC11CrossAdsSDKE08registercD5CellsyyF",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dequeueCrossAdsCell",
+            "printedName": "dequeueCrossAdsCell(crossAd:placeholderImage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CrossAdsBaseTableViewCell",
+                "printedName": "CrossAdsSDK.CrossAdsBaseTableViewCell",
+                "usr": "c:@M@CrossAdsSDK@objc(cs)CrossAdsBaseTableViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CrossAdModel",
+                "printedName": "CrossAdsSDK.CrossAdModel",
+                "usr": "s:11CrossAdsSDK0A7AdModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITableViewC11CrossAdsSDKE07dequeuecD4Cell7crossAd16placeholderImageAC0cd9BaseTablebG0CAC0cI5ModelV_So7UIImageCSgtF",
+            "mangledName": "$sSo11UITableViewC11CrossAdsSDKE07dequeuecD4Cell7crossAd16placeholderImageAC0cd9BaseTablebG0CAC0cI5ModelV_So7UIImageCSgtF",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dequeueCell",
+            "printedName": "dequeueCell(type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CrossAdsSDK.CrossAdsBaseTableViewCell?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrossAdsBaseTableViewCell",
+                    "printedName": "CrossAdsSDK.CrossAdsBaseTableViewCell",
+                    "usr": "c:@M@CrossAdsSDK@objc(cs)CrossAdsBaseTableViewCell"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CrossAdType",
+                "printedName": "CrossAdsSDK.CrossAdType",
+                "usr": "s:11CrossAdsSDK0A6AdTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITableViewC11CrossAdsSDKE11dequeueCell4typeAC0cd9BaseTablebG0CSgAC0C6AdTypeO_tF",
+            "mangledName": "$sSo11UITableViewC11CrossAdsSDKE11dequeueCell4typeAC0cd9BaseTablebG0CSgAC0C6AdTypeO_tF",
+            "moduleName": "CrossAdsSDK",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UITableView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UITableView",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIScrollView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIScrollView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/apple\/Desktop\/GitFactory\/CrossPromotionWithFirebase\/CrossAdsSDK\/Classes\/Views\/TableViewCells\/CrossAdsInterstitialTableViewCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 479,
+      "length": 5,
+      "value": "460.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/GitFactory\/CrossPromotionWithFirebase\/CrossAdsSDK\/Classes\/Managers\/CrossAdsConfigration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 307,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/GitFactory\/CrossPromotionWithFirebase\/CrossAdsSDK\/Classes\/Managers\/CrossAdsConfigration.swift",
+      "kind": "StringLiteral",
+      "offset": 341,
+      "length": 16,
+      "value": "\"CrossPromotion\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/GitFactory\/CrossPromotionWithFirebase\/CrossAdsSDK\/Classes\/Views\/TableViewCells\/CrossAdsBannerTableViewCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 243,
+      "length": 4,
+      "value": "60.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/GitFactory\/CrossPromotionWithFirebase\/CrossAdsSDK\/Classes\/CrossAdsManager.swift",
+      "kind": "Array",
+      "offset": 377,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/GitFactory\/CrossPromotionWithFirebase\/CrossAdsSDK\/Classes\/Models\/CrossAdModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 439,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/GitFactory\/CrossPromotionWithFirebase\/CrossAdsSDK\/Classes\/Views\/CollectionViewCells\/BannerCollectionViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 256,
+      "length": 26,
+      "value": "\"BannerCollectionViewCell\""
+    }
+  ]
+}

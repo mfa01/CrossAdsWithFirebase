@@ -6,6 +6,6 @@ framework module CrossAdsSDK {
 }
 
 module CrossAdsSDK.Swift {
-    header "CrossAdsSDK-Swift.h"
-    requires objc
+  header "CrossAdsSDK-Swift.h"
+  requires objc
 }
