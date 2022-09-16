@@ -9,26 +9,31 @@ Promote your apps for free, the idea is about adding native ads fetched from fir
 - To take advantage of custumizing you ads per country or device, .....
 - To get the analytics of the ads tap/view on the same firebase anayltics
 
-### Ad Types
-- "bannerImage"
+## Ad Types
+### "bannerImage"
 
 ![](BannerImage.png)
+-----
 
-- "detaildBanner"
+### "detaildBanner"
 
 ![](BannerDetails.png)
+-----
 
-- medium
+### medium
 
 ![](MediumAds.png)
+-----
 
-- interstitial
+### interstitial
 
 ![](screenshot-interstitial.png)
+-----
 
-- "bannerImageCollectionView"
+### "bannerImageCollectionView"
 
 ![](bannerImageCollectionView.png)
+-----
 
 
 ### Add Pod   
