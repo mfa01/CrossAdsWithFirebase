@@ -2,19 +2,35 @@
 
 Promote your apps for free, the idea is about adding native ads fetched from firebase configfuration to your application, and then you can show many types of ads, and all of analysis of ad click and view logged to firebase analytics
 
-Ad Types
-- Banner Image
-- Banner Details
-- Medium Ads
-- Interstitial
+### Why Firebase Configuration?
+- To take advantage of custumizing you ads per country or device, .....
+- To get the analytics of the ads tap/view on the same firebase anayltics
 
-### Required before you start
-This implementation depends on firebase remote configuration and firebase anayltycs, please implement firebase then install the pods
+### Ad Types
+- "bannerImage"
+![](BannerImage.png)
+
+- "detaildBanner"
+![](BannerDetails.png)
+
+- medium
+![(MediumAds.png)]
+
+- interstitial
+![(screenshot-interstitial.png)]
+
+- "bannerImageCollectionView"
+![(screenshot-interstitial.png)]
+
 
 ### Add Pod   
 ```sh
-pod 'YPlayer'
-import YPlayer
+pod 'CrossAdsSDK', :git => 'https://github.com/mfa01/CrossAdsWithFirebase.git', :tag => '0.0.2'
+```
+
+#### Also you can specify the tag to back to older versions
+```sh
+pod 'CrossAdsSDK', :git => 'https://github.com/mfa01/CrossAdsWithFirebase.git', :tag => '0.0.2'
 ```
 
 ## Fetching Ads
