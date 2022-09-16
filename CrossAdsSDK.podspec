@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name              = 'CrossAdsSDK'
-    s.version           = '0.0.7'
+    s.version           = '0.0.8'
     s.summary           = 'Cross ads sdk, by firebase config power'
     s.homepage          = 'http://lynxmob.com/'
     s.dependency       'FirebaseAnalytics'
@@ -22,6 +22,6 @@ Pod::Spec.new do |s|
     # s.source_files = 'CrossAdsSDK/Classes/**/*.{h,m}'
     s.source_files = 'CrossAdsSDK/Classes/**/*.{swift}'
     s.resource_bundles = {
-      'MyPodBundle' => ['CrossAdsSDK/Classes/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}']
+      'CrossAdsSDK' => ['CrossAdsSDK/Classes/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}']
     }
 end
