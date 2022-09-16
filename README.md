@@ -2,6 +2,9 @@
 
 Promote your apps for free, the idea is about adding native ads fetched from firebase configfuration to your application, and then you can show many types of ads, and all of analysis of ad click and view logged to firebase analytics
 
+![](screenshot.png)
+
+
 ### Why Firebase Configuration?
 - To take advantage of custumizing you ads per country or device, .....
 - To get the analytics of the ads tap/view on the same firebase anayltics
@@ -17,15 +20,15 @@ Promote your apps for free, the idea is about adding native ads fetched from fir
 
 - medium
 
-![(MediumAds.png)]
+![](MediumAds.png)
 
 - interstitial
 
-![(screenshot-interstitial.png)]
+![](screenshot-interstitial.png)
 
 - "bannerImageCollectionView"
 
-![(screenshot-interstitial.png)]
+![](bannerImageCollectionView.png)
 
 
 ### Add Pod   
