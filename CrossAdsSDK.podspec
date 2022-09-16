@@ -18,7 +18,9 @@ Pod::Spec.new do |s|
     # s.ios.vendored_frameworks = 'CrossAdsSDK/CrossAdsSDK.xcframework'
     s.requires_arc = true
     s.swift_version = '5.0'
-    s.source_files = 'CrossAdsSDK/Classes/**/*'
+    # s.source_files = 'CrossAdsSDK/Classes/**/*'
+    s.source_files = 'CrossAdsSDK/Classes/**/*.{h,m}'
+
     s.resource_bundles = {
      'CrossAdsSDKBundle' => ['CrossAdsSDK/Classes/**/*.xib']
     }
