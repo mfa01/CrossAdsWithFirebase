@@ -13,9 +13,8 @@ Pod::Spec.new do |s|
     s.platform          = :ios
     s.source            = { :git => 'https://github.com/mfa01/CrossAdsWithFirebase.git',:tag => s.version}
 
-    s.ios.deployment_target = '13.0'
+    s.ios.deployment_target = '12.0'
     #s.ios.vendored_frameworks = 'CrossAdsSDK.xcframework'
-    # s.vendored_frameworks = 'ExternalFrameworks/CardinalMobile.xcframework'
     s.requires_arc = true
     s.swift_version = '5.0'
     s.source_files = 'CrossAdsSDK/Classes/**/*'
