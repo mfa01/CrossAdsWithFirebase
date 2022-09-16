@@ -132,24 +132,25 @@ Note: this name will be used later...
 ## Now let's start fetching Ads
 
 ```sh
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        let config = CrossAdsConfigration(analyticsEnabled: true, analyticsLogTitle: "TestCrossAds", configName: "MyAppXCrossAds")
-            CrossAds.shared.start(config: config) { [weak self ] (ads, remoteConfig, error) in
-            print(ads)
-        }
+override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    let config = CrossAdsConfigration(analyticsEnabled: true, analyticsLogTitle: "TestCrossAds", configName: "MyAppXCrossAds")
+        CrossAds.shared.start(config: config) { [weak self ] (ads, remoteConfig, error) in
+        print(ads)
     }
+}
 ```
 
 ## Let's show your cross ads inside your app
 
 ### Showing first interstitial ad in your interstitial cross ads list
+After completion of callback, call this code to fetch first interstitial ad in your list
 ```sh
-    let interstitialAd = CrossAds.shared.adsInterstitialType.first
-    if let interstitialAd = interstitialAd {
-        CrossAdsInterstitialViewController.showAd(adModel: interstitialAd, placeholderImage: nil, inVC: self)
-    }
+let interstitialAd = CrossAds.shared.adsInterstitialType.first
+if let interstitialAd = interstitialAd {
+    CrossAdsInterstitialViewController.showAd(adModel: interstitialAd, placeholderImage: nil, inVC: self)
+}
 ```
 ![](screenshot-interstitial.png)
 
@@ -157,26 +158,68 @@ Note: this name will be used later...
 ## Showing Ad in UITableView
 ### Types can be shown in UITableView: "bannerImage", "detaildBanner" and "medium"
 Once you fetched the ad list from firebase config, then you can show the ads on your table view by specifying the cell like this
-
-```var crossAds: [CrossAdModel] = []```
-```let cell = tableView.dequeueCrossAdsCell(crossAd: crossAds[indexPath.row], placeholderImage: nil, height: nil)```
-
-to let sdk choose your ad
-```
-        let ad = CrossAdsManager.shared.pickAdItem()
-        let cell = tableView.dequeueCrossAdsCell(crossAd: ad, placeholderImage: nil, height: nil)``` 
-
-
-## Make you cell item model confirm to Advertizable protocol
-
-## Whenever you want to show an ad in your tableView
+Note: no need to register UITableView Cells
 ```sh
-let cell = tableView.dequeueCrossAdsCell(crossAd: crossAds[indexPath.row], placeholderImage: nil, height: nil)
+CrossAds.shared.start(config: config) { [weak self ] (ads, remoteConfig, error) in        self?.tableView.reloadData()
+}
+    
+extension ViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+        
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+            
+        let item = CrossAds.shared.pickAdItem(type: .bannerImage)
+        if let item = item {
+            let cell = tableView.dequeueCrossAdsCell(crossAd: item, placeholderImage: nil)
+            return cell
+        }
+        return UITableViewCell()
+    }
+}
 ```
-'height' field, can be set for ads cell to manually set the height, keep it nil to handle it automattically
+
+## Showing Ad in UITableView with your other items
+### Types can be shown in UITableView: "bannerImage", "detaildBanner" and "medium"
+
+Make your table view datasource model adopt 'Advertizable', example:
+```sh
+struct SampleStruct: Advertizable {
+    var isCrossAd: Bool? = false
+    
+    // Your Data
+    var name: String
+    var age: String
+    var city: String
+}
+```
+Then inject your ads between cells as you like
+Example
+```sh
+lazy var tableItems: [Advertizable] = {
+    var items: [SampleStruct] = []
+    for index in 0...200 {
+        let value = SampleStruct(name: "My name is \(index)", age: "\(arc4random()%100)", city: "My City: \(arc4random()%100)")
+        items.append(value)
+    }
+    return items
+}()
+```
+
+## Showing Ad in UICollectionView
+### Types can be shown in UICollectionView: 'bannerImageCollectionView'
+Register Cells
+```collectionView.registerCrossAdsCells()```
+
+Dequeue cell
+```sh
+let cell = collectionView.dequeueBannerCell(crossAd: CrossAds.shared.adsBannerCollectionViewType[indexPath.row], placeholderImage: nil, indexPath: indexPath)
+```
 
 
-![](screenshot.png)
+
+-------
 
 ## Ad Model
     public var id: String
@@ -193,73 +236,6 @@ let cell = tableView.dequeueCrossAdsCell(crossAd: crossAds[indexPath.row], place
     public var allowDismissAfter: Double?
 
 
-## Firebase Configuration
+## Caching
 
 ## Firebase Analytics Configuration
-
-
-
-
-
-```sh
-    let vc = YPlayerWebViewViewController.initPlayer(delegate: self)
-    let videoPresenetation = VideoPlayerPresentaion(videoId: "668nUCeBHyY")
-    self.present(vc, animated: true) {
-        vc.openPageWithVideoId(presentation: videoPresenetation)
-    }
-```
- ##### Always you can add many options to the presentation struct
- - let videoId: String
- - var autoplay = 1
- - var controls = 1 // show video controls options
- - var color: PlayerColor = .red
- - var playsinline = 1
- - var start: Float = 0.0 // start time
- - var loop = 0
- - var rel = 0 // show related videos after video end
- - var fs = 1 // show full screen option
- - var modestbranding = 0 // show youtube colors
- 
-## Open youtube with searched text
-
-![](video1.gif)
-
-
-```sh
-    let vc = YPlayerWebViewViewController.initPlayer(delegate: nil)
-    vc.webviewType = .searching
-    self.present(vc, animated: true) {
-        var c = URLComponents(string: "https://www.youtube.com/results")
-        c?.queryItems = [
-            URLQueryItem(name: "search_query", value: text)
-        ]
-        guard let url = c?.url else { return print("url fail") }
-        vc.openPage(url: url)
-    }
-```
-## Features
-```sh
-    func getCurrentTime(handler: @escaping (Float?) -> Void)
-    func seekTo(time: Float)
-    func mute()
-    func unMute()
-    func isMuted(handler: @escaping (Bool?) -> Void)
-    func setVolume(volume: Int)
-    func getVolume(handler: @escaping (Int?) -> Void)
-    func setPlaybackRate(value: Float)
-    func getPlaybackRate(handler: @escaping (Float?) -> Void)
-    func getAvailablePlaybackRates(handler: @escaping ([Float]?) -> Void)
-    func setLoop(value: Float)
-    func setShuffle(value: Float)
-    func getVideoLoadedFraction(handler: @escaping (Float?) -> Void)
-    func getPlayerState(handler: @escaping (PlayerState) -> Void)
-    func getDuration(handler: @escaping (Float?) -> Void)
-    func getVideoEmbedCode(handler: @escaping (Float?) -> Void)
-    func playVideo()
-    func stopVideo()
-    func pauseVideo()
-    func getIframe()
-```
-    
-    
-# for referance https://developers.google.com/youtube/iframe_api_reference

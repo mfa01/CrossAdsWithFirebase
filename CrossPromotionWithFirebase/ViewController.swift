@@ -117,7 +117,7 @@ extension ViewController: UITableViewDataSource {
 extension ViewController: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueBannerCell(crossAd: CrossAds.shared.adsBannerCollectionViewType[indexPath.row], placeholderImage: nil, height: nil, indexPath: indexPath)
+        let cell = collectionView.dequeueBannerCell(crossAd: CrossAds.shared.adsBannerCollectionViewType[indexPath.row], placeholderImage: nil, indexPath: indexPath)
         return cell
     }
     
