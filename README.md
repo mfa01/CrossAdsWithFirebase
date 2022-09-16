@@ -8,6 +8,7 @@ Promote your apps for free, the idea is about adding native ads fetched from fir
 
 ### Ad Types
 - "bannerImage"
+
 ![](BannerImage.png)
 
 - "detaildBanner"
