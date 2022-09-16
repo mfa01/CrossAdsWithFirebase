@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
     s.swift_version = '5.0'
     # s.source_files = 'CrossAdsSDK/Classes/**/*'
     # s.source_files = 'CrossAdsSDK/Classes/**/*.{h,m}'
-    s.source_files = 'CrossAdsSDK/Classes/**/*'
+    s.source_files = 'CrossAdsSDK/Classes/**/*.{swift}'
     s.resource_bundles = {
-      'MyPodBundle' => ['CrossAdsSDK/Resources/**/*.xib']
+      'MyPodBundle' => ['CrossAdsSDK/Classes/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}']
     }
 end

@@ -10,11 +10,10 @@ import UIKit
 
 public extension UITableView {
     func registerCrossAdsCells() {
-        let bundle = Bundle(for: CrossAdsBannerTableViewCell.self)
-        register(UINib(nibName: "CrossAdsBannerTableViewCell", bundle: bundle), forCellReuseIdentifier: CrossAdsBannerTableViewCell.identifier)
-        register(UINib(nibName: "CrossAdsDetailedBannerTableViewCell", bundle: bundle), forCellReuseIdentifier: CrossAdsDetailedBannerTableViewCell.identifier)
-        register(UINib(nibName: "CrossAdsMediumTableViewCell", bundle: bundle), forCellReuseIdentifier: CrossAdsMediumTableViewCell.identifier)
-        register(UINib(nibName: "CrossAdsInterstitialTableViewCell", bundle: bundle), forCellReuseIdentifier: CrossAdsInterstitialTableViewCell.identifier)
+        register(UINib(nibName: "CrossAdsBannerTableViewCell", bundle: Bundle(for: CrossAdsBannerTableViewCell.self)), forCellReuseIdentifier: CrossAdsBannerTableViewCell.identifier)
+        register(UINib(nibName: "CrossAdsDetailedBannerTableViewCell", bundle: Bundle(for: CrossAdsBannerTableViewCell.self)), forCellReuseIdentifier: CrossAdsBannerTableViewCell.identifier)
+        register(UINib(nibName: "CrossAdsMediumTableViewCell", bundle: Bundle(for: CrossAdsMediumTableViewCell.self)), forCellReuseIdentifier: CrossAdsMediumTableViewCell.identifier)
+        register(UINib(nibName: "CrossAdsInterstitialTableViewCell", bundle: Bundle(for: CrossAdsInterstitialTableViewCell.self)), forCellReuseIdentifier: CrossAdsInterstitialTableViewCell.identifier)
     }
     
     func dequeueCrossAdsCell(crossAd: CrossAdModel, placeholderImage: UIImage?) -> CrossAdsBaseTableViewCell {
