@@ -2,7 +2,7 @@
 
 Promote your apps for free, the idea is about adding native ads fetched from firebase configfuration to your application, and then you can show many types of ads, and all of analysis of ad click and view logged to firebase analytics
 
-![](screenshot.png)
+![](screenshot.png =400x866)
 
 
 ### Why Firebase Configuration?
