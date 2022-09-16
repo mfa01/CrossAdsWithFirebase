@@ -7,63 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18DAA30E28D4BCDA00B2B828 /* cross_ads_closeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18DAA30D28D4BCDA00B2B828 /* cross_ads_closeButton.png */; };
-		18DE1EE028D379C9003D55BB /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE1EDE28D379C9003D55BB /* BannerCollectionViewCell.swift */; };
-		18DE1EE128D379C9003D55BB /* BannerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DE1EDF28D379C9003D55BB /* BannerCollectionViewCell.xib */; };
-		18DE1EE328D37A22003D55BB /* CollectionViewExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE1EE228D37A22003D55BB /* CollectionViewExtentions.swift */; };
 		18E27E5F28C3FE7600311F8A /* CrossAdsSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 18E27E5E28C3FE7600311F8A /* CrossAdsSDK.docc */; };
 		18E27E6028C3FE7600311F8A /* CrossAdsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E27E5D28C3FE7600311F8A /* CrossAdsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18E27EB328C3FEB500311F8A /* CrossAdsConfigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27E9828C3FEB500311F8A /* CrossAdsConfigration.swift */; };
-		18E27EB428C3FEB500311F8A /* CrossAdsLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27E9A28C3FEB500311F8A /* CrossAdsLogger.swift */; };
-		18E27EB628C3FEB500311F8A /* CrossAdsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27E9C28C3FEB500311F8A /* CrossAdsManager.swift */; };
-		18E27EB728C3FEB500311F8A /* RemoteConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27E9E28C3FEB500311F8A /* RemoteConfigurationManager.swift */; };
-		18E27EB828C3FEB500311F8A /* AdsCachManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27E9F28C3FEB500311F8A /* AdsCachManager.swift */; };
-		18E27EB928C3FEB500311F8A /* AdActionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27EA028C3FEB500311F8A /* AdActionsManager.swift */; };
-		18E27EBA28C3FEB500311F8A /* CrossAdModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27EA228C3FEB500311F8A /* CrossAdModel.swift */; };
-		18E27EBB28C3FEB500311F8A /* CrossAdsDetailedBannerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E27EA528C3FEB500311F8A /* CrossAdsDetailedBannerTableViewCell.xib */; };
-		18E27EBC28C3FEB500311F8A /* CrossAdsBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27EA628C3FEB500311F8A /* CrossAdsBaseTableViewCell.swift */; };
-		18E27EBD28C3FEB500311F8A /* CrossAdsBannerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27EA728C3FEB500311F8A /* CrossAdsBannerTableViewCell.swift */; };
-		18E27EBE28C3FEB500311F8A /* CrossAdsDetailedBannerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27EA828C3FEB500311F8A /* CrossAdsDetailedBannerTableViewCell.swift */; };
-		18E27EBF28C3FEB500311F8A /* CrossAdsInterstitialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27EA928C3FEB500311F8A /* CrossAdsInterstitialTableViewCell.swift */; };
-		18E27EC028C3FEB500311F8A /* CrossAdsInterstitialTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E27EAA28C3FEB500311F8A /* CrossAdsInterstitialTableViewCell.xib */; };
-		18E27EC128C3FEB500311F8A /* CrossAdsBannerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E27EAB28C3FEB500311F8A /* CrossAdsBannerTableViewCell.xib */; };
-		18E27EC228C3FEB500311F8A /* CrossAdsMediumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E27EAC28C3FEB500311F8A /* CrossAdsMediumTableViewCell.xib */; };
-		18E27EC328C3FEB500311F8A /* CrossAdsMediumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27EAD28C3FEB500311F8A /* CrossAdsMediumTableViewCell.swift */; };
-		18E27EC428C3FEB500311F8A /* CrossAdsInterstitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E27EAE28C3FEB500311F8A /* CrossAdsInterstitialViewController.xib */; };
-		18E27EC528C3FEB500311F8A /* CrossAdsInterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27EAF28C3FEB500311F8A /* CrossAdsInterstitialViewController.swift */; };
-		18E27EC628C3FEB500311F8A /* ColorExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27EB128C3FEB500311F8A /* ColorExtentions.swift */; };
-		18E27EC728C3FEB500311F8A /* TableViewExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27EB228C3FEB500311F8A /* TableViewExtentions.swift */; };
+		18E45A7428D51A4400F0456D /* CrossAdsLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E45A5628D51A4400F0456D /* CrossAdsLogger.swift */; };
+		18E45A7528D51A4400F0456D /* CrossAdsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E45A5728D51A4400F0456D /* CrossAdsManager.swift */; };
+		18E45A7628D51A4400F0456D /* CrossAdsConfigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E45A5928D51A4400F0456D /* CrossAdsConfigration.swift */; };
+		18E45A7728D51A4400F0456D /* RemoteConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E45A5A28D51A4400F0456D /* RemoteConfigurationManager.swift */; };
+		18E45A7828D51A4400F0456D /* AdsCachManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E45A5B28D51A4400F0456D /* AdsCachManager.swift */; };
+		18E45A7928D51A4400F0456D /* AdActionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E45A5C28D51A4400F0456D /* AdActionsManager.swift */; };
+		18E45A7A28D51A4400F0456D /* CrossAdModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E45A5E28D51A4400F0456D /* CrossAdModel.swift */; };
+		18E45A7B28D51A4400F0456D /* CrossAdsInterstitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E45A6028D51A4400F0456D /* CrossAdsInterstitialViewController.xib */; };
+		18E45A7C28D51A4400F0456D /* CrossAdsDetailedBannerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E45A6228D51A4400F0456D /* CrossAdsDetailedBannerTableViewCell.xib */; };
+		18E45A7D28D51A4400F0456D /* CrossAdsBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E45A6328D51A4400F0456D /* CrossAdsBaseTableViewCell.swift */; };
+		18E45A7E28D51A4400F0456D /* CrossAdsBannerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E45A6428D51A4400F0456D /* CrossAdsBannerTableViewCell.swift */; };
+		18E45A7F28D51A4400F0456D /* CrossAdsDetailedBannerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E45A6528D51A4400F0456D /* CrossAdsDetailedBannerTableViewCell.swift */; };
+		18E45A8028D51A4400F0456D /* CrossAdsInterstitialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E45A6628D51A4400F0456D /* CrossAdsInterstitialTableViewCell.swift */; };
+		18E45A8128D51A4400F0456D /* CrossAdsInterstitialTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E45A6728D51A4400F0456D /* CrossAdsInterstitialTableViewCell.xib */; };
+		18E45A8228D51A4400F0456D /* CrossAdsBannerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E45A6828D51A4400F0456D /* CrossAdsBannerTableViewCell.xib */; };
+		18E45A8328D51A4400F0456D /* CrossAdsMediumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E45A6928D51A4400F0456D /* CrossAdsMediumTableViewCell.xib */; };
+		18E45A8428D51A4400F0456D /* CrossAdsMediumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E45A6A28D51A4400F0456D /* CrossAdsMediumTableViewCell.swift */; };
+		18E45A8528D51A4400F0456D /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E45A6C28D51A4400F0456D /* BannerCollectionViewCell.swift */; };
+		18E45A8628D51A4400F0456D /* BannerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E45A6D28D51A4400F0456D /* BannerCollectionViewCell.xib */; };
+		18E45A8728D51A4400F0456D /* CrossAdsInterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E45A6E28D51A4400F0456D /* CrossAdsInterstitialViewController.swift */; };
+		18E45A8828D51A4400F0456D /* ColorExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E45A7028D51A4400F0456D /* ColorExtentions.swift */; };
+		18E45A8928D51A4400F0456D /* cross_ads_closeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E45A7128D51A4400F0456D /* cross_ads_closeButton.png */; };
+		18E45A8A28D51A4400F0456D /* CollectionViewExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E45A7228D51A4400F0456D /* CollectionViewExtentions.swift */; };
+		18E45A8B28D51A4400F0456D /* TableViewExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E45A7328D51A4400F0456D /* TableViewExtentions.swift */; };
 		428181E73B727B9B52592F8C /* Pods_CrossAdsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783C94E9B04EAB611AA4F378 /* Pods_CrossAdsSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18DAA30D28D4BCDA00B2B828 /* cross_ads_closeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross_ads_closeButton.png; sourceTree = "<group>"; };
-		18DE1EDE28D379C9003D55BB /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
-		18DE1EDF28D379C9003D55BB /* BannerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerCollectionViewCell.xib; sourceTree = "<group>"; };
-		18DE1EE228D37A22003D55BB /* CollectionViewExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewExtentions.swift; sourceTree = "<group>"; };
 		18E27E5A28C3FE7600311F8A /* CrossAdsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CrossAdsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E27E5D28C3FE7600311F8A /* CrossAdsSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrossAdsSDK.h; sourceTree = "<group>"; };
 		18E27E5E28C3FE7600311F8A /* CrossAdsSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CrossAdsSDK.docc; sourceTree = "<group>"; };
-		18E27E9828C3FEB500311F8A /* CrossAdsConfigration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsConfigration.swift; sourceTree = "<group>"; };
-		18E27E9A28C3FEB500311F8A /* CrossAdsLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsLogger.swift; sourceTree = "<group>"; };
-		18E27E9C28C3FEB500311F8A /* CrossAdsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsManager.swift; sourceTree = "<group>"; };
-		18E27E9E28C3FEB500311F8A /* RemoteConfigurationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteConfigurationManager.swift; sourceTree = "<group>"; };
-		18E27E9F28C3FEB500311F8A /* AdsCachManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdsCachManager.swift; sourceTree = "<group>"; };
-		18E27EA028C3FEB500311F8A /* AdActionsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdActionsManager.swift; sourceTree = "<group>"; };
-		18E27EA228C3FEB500311F8A /* CrossAdModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdModel.swift; sourceTree = "<group>"; };
-		18E27EA528C3FEB500311F8A /* CrossAdsDetailedBannerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CrossAdsDetailedBannerTableViewCell.xib; sourceTree = "<group>"; };
-		18E27EA628C3FEB500311F8A /* CrossAdsBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsBaseTableViewCell.swift; sourceTree = "<group>"; };
-		18E27EA728C3FEB500311F8A /* CrossAdsBannerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsBannerTableViewCell.swift; sourceTree = "<group>"; };
-		18E27EA828C3FEB500311F8A /* CrossAdsDetailedBannerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsDetailedBannerTableViewCell.swift; sourceTree = "<group>"; };
-		18E27EA928C3FEB500311F8A /* CrossAdsInterstitialTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsInterstitialTableViewCell.swift; sourceTree = "<group>"; };
-		18E27EAA28C3FEB500311F8A /* CrossAdsInterstitialTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CrossAdsInterstitialTableViewCell.xib; sourceTree = "<group>"; };
-		18E27EAB28C3FEB500311F8A /* CrossAdsBannerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CrossAdsBannerTableViewCell.xib; sourceTree = "<group>"; };
-		18E27EAC28C3FEB500311F8A /* CrossAdsMediumTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CrossAdsMediumTableViewCell.xib; sourceTree = "<group>"; };
-		18E27EAD28C3FEB500311F8A /* CrossAdsMediumTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsMediumTableViewCell.swift; sourceTree = "<group>"; };
-		18E27EAE28C3FEB500311F8A /* CrossAdsInterstitialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CrossAdsInterstitialViewController.xib; sourceTree = "<group>"; };
-		18E27EAF28C3FEB500311F8A /* CrossAdsInterstitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsInterstitialViewController.swift; sourceTree = "<group>"; };
-		18E27EB128C3FEB500311F8A /* ColorExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtentions.swift; sourceTree = "<group>"; };
-		18E27EB228C3FEB500311F8A /* TableViewExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewExtentions.swift; sourceTree = "<group>"; };
 		18E27ECD28C404AB00311F8A /* Pods_CrossPromotionWithFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_CrossPromotionWithFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E27ED128C404D900311F8A /* FirebaseABTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseABTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E27ED228C404D900311F8A /* FirebaseAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseAnalytics.xcframework; path = ../Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.xcframework; sourceTree = "<group>"; };
@@ -89,6 +65,30 @@
 		18E27EF928C4050700311F8A /* Pods_CrossPromotionWithFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_CrossPromotionWithFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E27EFA28C4050700311F8A /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E27F0728C4053800311F8A /* Pods_CrossPromotionWithFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_CrossPromotionWithFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E45A5628D51A4400F0456D /* CrossAdsLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsLogger.swift; sourceTree = "<group>"; };
+		18E45A5728D51A4400F0456D /* CrossAdsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsManager.swift; sourceTree = "<group>"; };
+		18E45A5928D51A4400F0456D /* CrossAdsConfigration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsConfigration.swift; sourceTree = "<group>"; };
+		18E45A5A28D51A4400F0456D /* RemoteConfigurationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteConfigurationManager.swift; sourceTree = "<group>"; };
+		18E45A5B28D51A4400F0456D /* AdsCachManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdsCachManager.swift; sourceTree = "<group>"; };
+		18E45A5C28D51A4400F0456D /* AdActionsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdActionsManager.swift; sourceTree = "<group>"; };
+		18E45A5E28D51A4400F0456D /* CrossAdModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdModel.swift; sourceTree = "<group>"; };
+		18E45A6028D51A4400F0456D /* CrossAdsInterstitialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CrossAdsInterstitialViewController.xib; sourceTree = "<group>"; };
+		18E45A6228D51A4400F0456D /* CrossAdsDetailedBannerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CrossAdsDetailedBannerTableViewCell.xib; sourceTree = "<group>"; };
+		18E45A6328D51A4400F0456D /* CrossAdsBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsBaseTableViewCell.swift; sourceTree = "<group>"; };
+		18E45A6428D51A4400F0456D /* CrossAdsBannerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsBannerTableViewCell.swift; sourceTree = "<group>"; };
+		18E45A6528D51A4400F0456D /* CrossAdsDetailedBannerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsDetailedBannerTableViewCell.swift; sourceTree = "<group>"; };
+		18E45A6628D51A4400F0456D /* CrossAdsInterstitialTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsInterstitialTableViewCell.swift; sourceTree = "<group>"; };
+		18E45A6728D51A4400F0456D /* CrossAdsInterstitialTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CrossAdsInterstitialTableViewCell.xib; sourceTree = "<group>"; };
+		18E45A6828D51A4400F0456D /* CrossAdsBannerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CrossAdsBannerTableViewCell.xib; sourceTree = "<group>"; };
+		18E45A6928D51A4400F0456D /* CrossAdsMediumTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CrossAdsMediumTableViewCell.xib; sourceTree = "<group>"; };
+		18E45A6A28D51A4400F0456D /* CrossAdsMediumTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsMediumTableViewCell.swift; sourceTree = "<group>"; };
+		18E45A6C28D51A4400F0456D /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		18E45A6D28D51A4400F0456D /* BannerCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BannerCollectionViewCell.xib; sourceTree = "<group>"; };
+		18E45A6E28D51A4400F0456D /* CrossAdsInterstitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsInterstitialViewController.swift; sourceTree = "<group>"; };
+		18E45A7028D51A4400F0456D /* ColorExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtentions.swift; sourceTree = "<group>"; };
+		18E45A7128D51A4400F0456D /* cross_ads_closeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross_ads_closeButton.png; sourceTree = "<group>"; };
+		18E45A7228D51A4400F0456D /* CollectionViewExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewExtentions.swift; sourceTree = "<group>"; };
+		18E45A7328D51A4400F0456D /* TableViewExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewExtentions.swift; sourceTree = "<group>"; };
 		783C94E9B04EAB611AA4F378 /* Pods_CrossAdsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrossAdsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7698FFE36E3717E8361B5D3 /* Pods-CrossAdsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossAdsSDK.release.xcconfig"; path = "../CrossAdsSDK/Pods/Target Support Files/Pods-CrossAdsSDK/Pods-CrossAdsSDK.release.xcconfig"; sourceTree = "<group>"; };
 		D8C4CFF1F02052B047D17A91 /* Pods-CrossAdsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossAdsSDK.debug.xcconfig"; path = "../CrossAdsSDK/Pods/Target Support Files/Pods-CrossAdsSDK/Pods-CrossAdsSDK.debug.xcconfig"; sourceTree = "<group>"; };
@@ -106,15 +106,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18DE1EDD28D379A5003D55BB /* CollectionViewCells */ = {
-			isa = PBXGroup;
-			children = (
-				18DE1EDE28D379C9003D55BB /* BannerCollectionViewCell.swift */,
-				18DE1EDF28D379C9003D55BB /* BannerCollectionViewCell.xib */,
-			);
-			path = CollectionViewCells;
-			sourceTree = "<group>";
-		};
 		18E27E5028C3FE7600311F8A = {
 			isa = PBXGroup;
 			children = (
@@ -136,89 +127,12 @@
 		18E27E5C28C3FE7600311F8A /* CrossAdsSDK */ = {
 			isa = PBXGroup;
 			children = (
-				18E27E9728C3FEB500311F8A /* Classes */,
+				18E45A5228D51A1C00F0456D /* Resources */,
+				18E45A5428D51A4400F0456D /* Classes */,
 				18E27E5D28C3FE7600311F8A /* CrossAdsSDK.h */,
 				18E27E5E28C3FE7600311F8A /* CrossAdsSDK.docc */,
 			);
 			path = CrossAdsSDK;
-			sourceTree = "<group>";
-		};
-		18E27E9728C3FEB500311F8A /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				18E27E9C28C3FEB500311F8A /* CrossAdsManager.swift */,
-				18E27E9928C3FEB500311F8A /* Logger */,
-				18E27E9D28C3FEB500311F8A /* Managers */,
-				18E27EA128C3FEB500311F8A /* Models */,
-				18E27EA328C3FEB500311F8A /* Views */,
-				18E27EB028C3FEB500311F8A /* Helpers */,
-			);
-			path = Classes;
-			sourceTree = SOURCE_ROOT;
-		};
-		18E27E9928C3FEB500311F8A /* Logger */ = {
-			isa = PBXGroup;
-			children = (
-				18E27E9A28C3FEB500311F8A /* CrossAdsLogger.swift */,
-			);
-			path = Logger;
-			sourceTree = "<group>";
-		};
-		18E27E9D28C3FEB500311F8A /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				18E27E9828C3FEB500311F8A /* CrossAdsConfigration.swift */,
-				18E27E9E28C3FEB500311F8A /* RemoteConfigurationManager.swift */,
-				18E27E9F28C3FEB500311F8A /* AdsCachManager.swift */,
-				18E27EA028C3FEB500311F8A /* AdActionsManager.swift */,
-			);
-			path = Managers;
-			sourceTree = "<group>";
-		};
-		18E27EA128C3FEB500311F8A /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				18E27EA228C3FEB500311F8A /* CrossAdModel.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		18E27EA328C3FEB500311F8A /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				18DE1EDD28D379A5003D55BB /* CollectionViewCells */,
-				18E27EA428C3FEB500311F8A /* TableViewCells */,
-				18E27EAE28C3FEB500311F8A /* CrossAdsInterstitialViewController.xib */,
-				18E27EAF28C3FEB500311F8A /* CrossAdsInterstitialViewController.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		18E27EA428C3FEB500311F8A /* TableViewCells */ = {
-			isa = PBXGroup;
-			children = (
-				18E27EA628C3FEB500311F8A /* CrossAdsBaseTableViewCell.swift */,
-				18E27EA728C3FEB500311F8A /* CrossAdsBannerTableViewCell.swift */,
-				18E27EAB28C3FEB500311F8A /* CrossAdsBannerTableViewCell.xib */,
-				18E27EA828C3FEB500311F8A /* CrossAdsDetailedBannerTableViewCell.swift */,
-				18E27EA528C3FEB500311F8A /* CrossAdsDetailedBannerTableViewCell.xib */,
-				18E27EA928C3FEB500311F8A /* CrossAdsInterstitialTableViewCell.swift */,
-				18E27EAA28C3FEB500311F8A /* CrossAdsInterstitialTableViewCell.xib */,
-				18E27EAC28C3FEB500311F8A /* CrossAdsMediumTableViewCell.xib */,
-				18E27EAD28C3FEB500311F8A /* CrossAdsMediumTableViewCell.swift */,
-			);
-			path = TableViewCells;
-			sourceTree = "<group>";
-		};
-		18E27EB028C3FEB500311F8A /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				18DAA30D28D4BCDA00B2B828 /* cross_ads_closeButton.png */,
-				18E27EB128C3FEB500311F8A /* ColorExtentions.swift */,
-				18E27EB228C3FEB500311F8A /* TableViewExtentions.swift */,
-				18DE1EE228D37A22003D55BB /* CollectionViewExtentions.swift */,
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 		18E27ECC28C404AB00311F8A /* Frameworks */ = {
@@ -252,6 +166,100 @@
 				783C94E9B04EAB611AA4F378 /* Pods_CrossAdsSDK.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18E45A5228D51A1C00F0456D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18E45A6028D51A4400F0456D /* CrossAdsInterstitialViewController.xib */,
+				18E45A6228D51A4400F0456D /* CrossAdsDetailedBannerTableViewCell.xib */,
+				18E45A6728D51A4400F0456D /* CrossAdsInterstitialTableViewCell.xib */,
+				18E45A6828D51A4400F0456D /* CrossAdsBannerTableViewCell.xib */,
+				18E45A6928D51A4400F0456D /* CrossAdsMediumTableViewCell.xib */,
+				18E45A6D28D51A4400F0456D /* BannerCollectionViewCell.xib */,
+				18E45A7128D51A4400F0456D /* cross_ads_closeButton.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		18E45A5428D51A4400F0456D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18E45A5728D51A4400F0456D /* CrossAdsManager.swift */,
+				18E45A5528D51A4400F0456D /* Logger */,
+				18E45A5828D51A4400F0456D /* Managers */,
+				18E45A5D28D51A4400F0456D /* Models */,
+				18E45A5F28D51A4400F0456D /* Views */,
+				18E45A6F28D51A4400F0456D /* Helpers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		18E45A5528D51A4400F0456D /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				18E45A5628D51A4400F0456D /* CrossAdsLogger.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		18E45A5828D51A4400F0456D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				18E45A5928D51A4400F0456D /* CrossAdsConfigration.swift */,
+				18E45A5A28D51A4400F0456D /* RemoteConfigurationManager.swift */,
+				18E45A5B28D51A4400F0456D /* AdsCachManager.swift */,
+				18E45A5C28D51A4400F0456D /* AdActionsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		18E45A5D28D51A4400F0456D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18E45A5E28D51A4400F0456D /* CrossAdModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18E45A5F28D51A4400F0456D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18E45A6128D51A4400F0456D /* TableViewCells */,
+				18E45A6B28D51A4400F0456D /* CollectionViewCells */,
+				18E45A6E28D51A4400F0456D /* CrossAdsInterstitialViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18E45A6128D51A4400F0456D /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				18E45A6328D51A4400F0456D /* CrossAdsBaseTableViewCell.swift */,
+				18E45A6428D51A4400F0456D /* CrossAdsBannerTableViewCell.swift */,
+				18E45A6528D51A4400F0456D /* CrossAdsDetailedBannerTableViewCell.swift */,
+				18E45A6628D51A4400F0456D /* CrossAdsInterstitialTableViewCell.swift */,
+				18E45A6A28D51A4400F0456D /* CrossAdsMediumTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		18E45A6B28D51A4400F0456D /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				18E45A6C28D51A4400F0456D /* BannerCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		18E45A6F28D51A4400F0456D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				18E45A7028D51A4400F0456D /* ColorExtentions.swift */,
+				18E45A7228D51A4400F0456D /* CollectionViewExtentions.swift */,
+				18E45A7328D51A4400F0456D /* TableViewExtentions.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		D25BF9B5D080D110658A0825 /* Pods */ = {
@@ -334,13 +342,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E27EC128C3FEB500311F8A /* CrossAdsBannerTableViewCell.xib in Resources */,
-				18E27EBB28C3FEB500311F8A /* CrossAdsDetailedBannerTableViewCell.xib in Resources */,
-				18E27EC228C3FEB500311F8A /* CrossAdsMediumTableViewCell.xib in Resources */,
-				18E27EC428C3FEB500311F8A /* CrossAdsInterstitialViewController.xib in Resources */,
-				18DAA30E28D4BCDA00B2B828 /* cross_ads_closeButton.png in Resources */,
-				18DE1EE128D379C9003D55BB /* BannerCollectionViewCell.xib in Resources */,
-				18E27EC028C3FEB500311F8A /* CrossAdsInterstitialTableViewCell.xib in Resources */,
+				18E45A8328D51A4400F0456D /* CrossAdsMediumTableViewCell.xib in Resources */,
+				18E45A8128D51A4400F0456D /* CrossAdsInterstitialTableViewCell.xib in Resources */,
+				18E45A7B28D51A4400F0456D /* CrossAdsInterstitialViewController.xib in Resources */,
+				18E45A7C28D51A4400F0456D /* CrossAdsDetailedBannerTableViewCell.xib in Resources */,
+				18E45A8928D51A4400F0456D /* cross_ads_closeButton.png in Resources */,
+				18E45A8628D51A4400F0456D /* BannerCollectionViewCell.xib in Resources */,
+				18E45A8228D51A4400F0456D /* CrossAdsBannerTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,24 +384,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E27EC628C3FEB500311F8A /* ColorExtentions.swift in Sources */,
-				18DE1EE328D37A22003D55BB /* CollectionViewExtentions.swift in Sources */,
-				18E27EBC28C3FEB500311F8A /* CrossAdsBaseTableViewCell.swift in Sources */,
-				18E27EBF28C3FEB500311F8A /* CrossAdsInterstitialTableViewCell.swift in Sources */,
-				18E27EC328C3FEB500311F8A /* CrossAdsMediumTableViewCell.swift in Sources */,
-				18E27EB328C3FEB500311F8A /* CrossAdsConfigration.swift in Sources */,
-				18E27EB428C3FEB500311F8A /* CrossAdsLogger.swift in Sources */,
-				18E27EB928C3FEB500311F8A /* AdActionsManager.swift in Sources */,
-				18E27EBD28C3FEB500311F8A /* CrossAdsBannerTableViewCell.swift in Sources */,
-				18E27EC728C3FEB500311F8A /* TableViewExtentions.swift in Sources */,
-				18E27EB828C3FEB500311F8A /* AdsCachManager.swift in Sources */,
-				18E27EC528C3FEB500311F8A /* CrossAdsInterstitialViewController.swift in Sources */,
-				18E27EB628C3FEB500311F8A /* CrossAdsManager.swift in Sources */,
-				18E27EB728C3FEB500311F8A /* RemoteConfigurationManager.swift in Sources */,
+				18E45A8828D51A4400F0456D /* ColorExtentions.swift in Sources */,
+				18E45A7D28D51A4400F0456D /* CrossAdsBaseTableViewCell.swift in Sources */,
+				18E45A8428D51A4400F0456D /* CrossAdsMediumTableViewCell.swift in Sources */,
 				18E27E5F28C3FE7600311F8A /* CrossAdsSDK.docc in Sources */,
-				18E27EBA28C3FEB500311F8A /* CrossAdModel.swift in Sources */,
-				18E27EBE28C3FEB500311F8A /* CrossAdsDetailedBannerTableViewCell.swift in Sources */,
-				18DE1EE028D379C9003D55BB /* BannerCollectionViewCell.swift in Sources */,
+				18E45A7528D51A4400F0456D /* CrossAdsManager.swift in Sources */,
+				18E45A7928D51A4400F0456D /* AdActionsManager.swift in Sources */,
+				18E45A7628D51A4400F0456D /* CrossAdsConfigration.swift in Sources */,
+				18E45A7828D51A4400F0456D /* AdsCachManager.swift in Sources */,
+				18E45A7F28D51A4400F0456D /* CrossAdsDetailedBannerTableViewCell.swift in Sources */,
+				18E45A7A28D51A4400F0456D /* CrossAdModel.swift in Sources */,
+				18E45A8A28D51A4400F0456D /* CollectionViewExtentions.swift in Sources */,
+				18E45A8728D51A4400F0456D /* CrossAdsInterstitialViewController.swift in Sources */,
+				18E45A7428D51A4400F0456D /* CrossAdsLogger.swift in Sources */,
+				18E45A8528D51A4400F0456D /* BannerCollectionViewCell.swift in Sources */,
+				18E45A8B28D51A4400F0456D /* TableViewExtentions.swift in Sources */,
+				18E45A7728D51A4400F0456D /* RemoteConfigurationManager.swift in Sources */,
+				18E45A7E28D51A4400F0456D /* CrossAdsBannerTableViewCell.swift in Sources */,
+				18E45A8028D51A4400F0456D /* CrossAdsInterstitialTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
