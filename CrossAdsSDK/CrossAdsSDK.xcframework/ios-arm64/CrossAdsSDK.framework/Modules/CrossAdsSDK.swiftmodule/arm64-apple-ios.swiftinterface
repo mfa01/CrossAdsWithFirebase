@@ -1,0 +1,77 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CrossAdsSDK
+@_exported import CrossAdsSDK
+import FirebaseAnalytics
+import FirebaseCore
+import FirebaseRemoteConfig
+import Foundation
+import Kingfisher
+import Swift
+import UIKit
+import _Concurrency
+public struct Presentation {
+  public var adModel: CrossAdsSDK.CrossAdModel?
+  public var placeholderImage: UIKit.UIImage?
+  public var adHeight: CoreGraphics.CGFloat?
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CrossAdsBaseTableViewCell : UIKit.UITableViewCell {
+  @objc override dynamic public func awakeFromNib()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func setSelected(_ selected: Swift.Bool, animated: Swift.Bool)
+  @available(iOS 3.0, *)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public struct CrossAdsConfigration {
+  public let analyticsEnabled: Swift.Bool
+  public let analyticsLogTitle: Swift.String
+  public init(analyticsEnabled: Swift.Bool = true, analyticsLogTitle: Swift.String = "CrossPromotion")
+}
+extension UIKit.UITableView {
+  @_Concurrency.MainActor(unsafe) public func registerCrossAdsCells()
+  @_Concurrency.MainActor(unsafe) public func dequeueCrossAdsCell(crossAd: CrossAdsSDK.CrossAdModel, placeholderImage: UIKit.UIImage?, height: CoreGraphics.CGFloat?) -> CrossAdsSDK.CrossAdsBaseTableViewCell
+  @_Concurrency.MainActor(unsafe) public func dequeueCell(type: CrossAdsSDK.CrossAdType) -> CrossAdsSDK.CrossAdsBaseTableViewCell?
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CrossAdsInterstitialViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public static func showAd(adModel: CrossAdsSDK.CrossAdModel?, placeholderImage: UIKit.UIImage?, inVC: UIKit.UIViewController)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class CrossAdsManager {
+  public static let shared: CrossAdsSDK.CrossAdsManager
+  public func start(config: CrossAdsSDK.CrossAdsConfigration, completion: @escaping (([CrossAdsSDK.CrossAdModel]?, FirebaseRemoteConfig.RemoteConfig?, Swift.Error?) -> ()))
+  @objc deinit
+}
+public enum CrossAdType : Swift.String, Swift.Codable {
+  case bannerImage
+  case detaildBanner
+  case medium
+  case interstitial
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct CrossAdModel : Swift.Codable {
+  public var id: Swift.String
+  public var image: Swift.String?
+  public var mainImage: Swift.String?
+  public var title: Swift.String?
+  public var actionButtonTitle: Swift.String?
+  public var subTitle: Swift.String?
+  public var type: CrossAdsSDK.CrossAdType?
+  public var url: Swift.String?
+  public var view_freq: Swift.Int?
+  public var click_freq: Swift.Int?
+  public var backgroundColor: Swift.String?
+  public var allowDismissAfter: Swift.Double?
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+extension CrossAdsSDK.CrossAdType : Swift.Equatable {}
+extension CrossAdsSDK.CrossAdType : Swift.Hashable {}
+extension CrossAdsSDK.CrossAdType : Swift.RawRepresentable {}

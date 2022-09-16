@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CrossAdsBannerTableViewCell" id="KGk-i7-Jjw" customClass="CrossAdsBannerTableViewCell" customModule="CrossPromotionWithFirebase" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HfM-ik-4gK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="6z8-G8-b2j"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="HfM-ik-4gK" secondAttribute="trailing" id="8MP-oM-caS"/>
+                    <constraint firstItem="HfM-ik-4gK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="9Te-2b-icr"/>
+                    <constraint firstAttribute="bottom" secondItem="HfM-ik-4gK" secondAttribute="bottom" id="Hu6-Jr-y9n"/>
+                    <constraint firstItem="HfM-ik-4gK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="zAc-LM-0pl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bannerImageView" destination="HfM-ik-4gK" id="PbL-qX-L5E"/>
+                <outlet property="heighConstraint" destination="6z8-G8-b2j" id="gyR-cF-NGE"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="45"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,11 @@
+framework module CrossAdsSDK {
+  umbrella header "CrossAdsSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module CrossAdsSDK.Swift {
+    header "CrossAdsSDK-Swift.h"
+    requires objc
+}

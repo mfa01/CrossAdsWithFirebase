@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18DE1EE028D379C9003D55BB /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE1EDE28D379C9003D55BB /* BannerCollectionViewCell.swift */; };
+		18DE1EE128D379C9003D55BB /* BannerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DE1EDF28D379C9003D55BB /* BannerCollectionViewCell.xib */; };
+		18DE1EE328D37A22003D55BB /* CollectionViewExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE1EE228D37A22003D55BB /* CollectionViewExtentions.swift */; };
+		18E27E5F28C3FE7600311F8A /* CrossAdsSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 18E27E5E28C3FE7600311F8A /* CrossAdsSDK.docc */; };
+		18E27E6028C3FE7600311F8A /* CrossAdsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E27E5D28C3FE7600311F8A /* CrossAdsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18E27EB328C3FEB500311F8A /* CrossAdsConfigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27E9828C3FEB500311F8A /* CrossAdsConfigration.swift */; };
+		18E27EB428C3FEB500311F8A /* CrossAdsLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27E9A28C3FEB500311F8A /* CrossAdsLogger.swift */; };
+		18E27EB628C3FEB500311F8A /* CrossAdsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27E9C28C3FEB500311F8A /* CrossAdsManager.swift */; };
+		18E27EB728C3FEB500311F8A /* RemoteConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27E9E28C3FEB500311F8A /* RemoteConfigurationManager.swift */; };
+		18E27EB828C3FEB500311F8A /* AdsCachManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27E9F28C3FEB500311F8A /* AdsCachManager.swift */; };
+		18E27EB928C3FEB500311F8A /* AdActionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27EA028C3FEB500311F8A /* AdActionsManager.swift */; };
+		18E27EBA28C3FEB500311F8A /* CrossAdModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27EA228C3FEB500311F8A /* CrossAdModel.swift */; };
+		18E27EBB28C3FEB500311F8A /* CrossAdsDetailedBannerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E27EA528C3FEB500311F8A /* CrossAdsDetailedBannerTableViewCell.xib */; };
+		18E27EBC28C3FEB500311F8A /* CrossAdsBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27EA628C3FEB500311F8A /* CrossAdsBaseTableViewCell.swift */; };
+		18E27EBD28C3FEB500311F8A /* CrossAdsBannerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27EA728C3FEB500311F8A /* CrossAdsBannerTableViewCell.swift */; };
+		18E27EBE28C3FEB500311F8A /* CrossAdsDetailedBannerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27EA828C3FEB500311F8A /* CrossAdsDetailedBannerTableViewCell.swift */; };
+		18E27EBF28C3FEB500311F8A /* CrossAdsInterstitialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27EA928C3FEB500311F8A /* CrossAdsInterstitialTableViewCell.swift */; };
+		18E27EC028C3FEB500311F8A /* CrossAdsInterstitialTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E27EAA28C3FEB500311F8A /* CrossAdsInterstitialTableViewCell.xib */; };
+		18E27EC128C3FEB500311F8A /* CrossAdsBannerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E27EAB28C3FEB500311F8A /* CrossAdsBannerTableViewCell.xib */; };
+		18E27EC228C3FEB500311F8A /* CrossAdsMediumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E27EAC28C3FEB500311F8A /* CrossAdsMediumTableViewCell.xib */; };
+		18E27EC328C3FEB500311F8A /* CrossAdsMediumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27EAD28C3FEB500311F8A /* CrossAdsMediumTableViewCell.swift */; };
+		18E27EC428C3FEB500311F8A /* CrossAdsInterstitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E27EAE28C3FEB500311F8A /* CrossAdsInterstitialViewController.xib */; };
+		18E27EC528C3FEB500311F8A /* CrossAdsInterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27EAF28C3FEB500311F8A /* CrossAdsInterstitialViewController.swift */; };
+		18E27EC628C3FEB500311F8A /* ColorExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27EB128C3FEB500311F8A /* ColorExtentions.swift */; };
+		18E27EC728C3FEB500311F8A /* TableViewExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E27EB228C3FEB500311F8A /* TableViewExtentions.swift */; };
+		428181E73B727B9B52592F8C /* Pods_CrossAdsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783C94E9B04EAB611AA4F378 /* Pods_CrossAdsSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18DE1EDE28D379C9003D55BB /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		18DE1EDF28D379C9003D55BB /* BannerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerCollectionViewCell.xib; sourceTree = "<group>"; };
+		18DE1EE228D37A22003D55BB /* CollectionViewExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewExtentions.swift; sourceTree = "<group>"; };
+		18E27E5A28C3FE7600311F8A /* CrossAdsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CrossAdsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E27E5D28C3FE7600311F8A /* CrossAdsSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrossAdsSDK.h; sourceTree = "<group>"; };
+		18E27E5E28C3FE7600311F8A /* CrossAdsSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CrossAdsSDK.docc; sourceTree = "<group>"; };
+		18E27E9828C3FEB500311F8A /* CrossAdsConfigration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsConfigration.swift; sourceTree = "<group>"; };
+		18E27E9A28C3FEB500311F8A /* CrossAdsLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsLogger.swift; sourceTree = "<group>"; };
+		18E27E9C28C3FEB500311F8A /* CrossAdsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsManager.swift; sourceTree = "<group>"; };
+		18E27E9E28C3FEB500311F8A /* RemoteConfigurationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteConfigurationManager.swift; sourceTree = "<group>"; };
+		18E27E9F28C3FEB500311F8A /* AdsCachManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdsCachManager.swift; sourceTree = "<group>"; };
+		18E27EA028C3FEB500311F8A /* AdActionsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdActionsManager.swift; sourceTree = "<group>"; };
+		18E27EA228C3FEB500311F8A /* CrossAdModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdModel.swift; sourceTree = "<group>"; };
+		18E27EA528C3FEB500311F8A /* CrossAdsDetailedBannerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CrossAdsDetailedBannerTableViewCell.xib; sourceTree = "<group>"; };
+		18E27EA628C3FEB500311F8A /* CrossAdsBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsBaseTableViewCell.swift; sourceTree = "<group>"; };
+		18E27EA728C3FEB500311F8A /* CrossAdsBannerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsBannerTableViewCell.swift; sourceTree = "<group>"; };
+		18E27EA828C3FEB500311F8A /* CrossAdsDetailedBannerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsDetailedBannerTableViewCell.swift; sourceTree = "<group>"; };
+		18E27EA928C3FEB500311F8A /* CrossAdsInterstitialTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsInterstitialTableViewCell.swift; sourceTree = "<group>"; };
+		18E27EAA28C3FEB500311F8A /* CrossAdsInterstitialTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CrossAdsInterstitialTableViewCell.xib; sourceTree = "<group>"; };
+		18E27EAB28C3FEB500311F8A /* CrossAdsBannerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CrossAdsBannerTableViewCell.xib; sourceTree = "<group>"; };
+		18E27EAC28C3FEB500311F8A /* CrossAdsMediumTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CrossAdsMediumTableViewCell.xib; sourceTree = "<group>"; };
+		18E27EAD28C3FEB500311F8A /* CrossAdsMediumTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsMediumTableViewCell.swift; sourceTree = "<group>"; };
+		18E27EAE28C3FEB500311F8A /* CrossAdsInterstitialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CrossAdsInterstitialViewController.xib; sourceTree = "<group>"; };
+		18E27EAF28C3FEB500311F8A /* CrossAdsInterstitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossAdsInterstitialViewController.swift; sourceTree = "<group>"; };
+		18E27EB128C3FEB500311F8A /* ColorExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtentions.swift; sourceTree = "<group>"; };
+		18E27EB228C3FEB500311F8A /* TableViewExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewExtentions.swift; sourceTree = "<group>"; };
+		18E27ECD28C404AB00311F8A /* Pods_CrossPromotionWithFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_CrossPromotionWithFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E27ED128C404D900311F8A /* FirebaseABTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseABTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E27ED228C404D900311F8A /* FirebaseAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseAnalytics.xcframework; path = ../Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.xcframework; sourceTree = "<group>"; };
+		18E27ED328C404D900311F8A /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E27ED428C404D900311F8A /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E27ED528C404D900311F8A /* FirebaseCoreInternal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCoreInternal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E27ED628C404D900311F8A /* FirebaseInstallations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseInstallations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E27ED728C404D900311F8A /* FirebaseRemoteConfig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseRemoteConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E27ED828C404D900311F8A /* Pods_CrossPromotionWithFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_CrossPromotionWithFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E27EEA28C404E600311F8A /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E27EED28C4050700311F8A /* FirebaseABTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseABTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E27EEE28C4050700311F8A /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E27EEF28C4050700311F8A /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E27EF028C4050700311F8A /* FirebaseCoreInternal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCoreInternal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E27EF128C4050700311F8A /* FirebaseInstallations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseInstallations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E27EF228C4050700311F8A /* FirebaseRemoteConfig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseRemoteConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E27EF328C4050700311F8A /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleAppMeasurement.xcframework; path = ../Pods/GoogleAppMeasurement/Frameworks/GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
+		18E27EF428C4050700311F8A /* GoogleAppMeasurementIdentitySupport.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleAppMeasurementIdentitySupport.xcframework; path = ../Pods/GoogleAppMeasurement/Frameworks/GoogleAppMeasurementIdentitySupport.xcframework; sourceTree = "<group>"; };
+		18E27EF528C4050700311F8A /* GoogleDataTransport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleDataTransport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E27EF628C4050700311F8A /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E27EF728C4050700311F8A /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E27EF828C4050700311F8A /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E27EF928C4050700311F8A /* Pods_CrossPromotionWithFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_CrossPromotionWithFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E27EFA28C4050700311F8A /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E27F0728C4053800311F8A /* Pods_CrossPromotionWithFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_CrossPromotionWithFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		783C94E9B04EAB611AA4F378 /* Pods_CrossAdsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrossAdsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7698FFE36E3717E8361B5D3 /* Pods-CrossAdsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossAdsSDK.release.xcconfig"; path = "../CrossAdsSDK/Pods/Target Support Files/Pods-CrossAdsSDK/Pods-CrossAdsSDK.release.xcconfig"; sourceTree = "<group>"; };
+		D8C4CFF1F02052B047D17A91 /* Pods-CrossAdsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossAdsSDK.debug.xcconfig"; path = "../CrossAdsSDK/Pods/Target Support Files/Pods-CrossAdsSDK/Pods-CrossAdsSDK.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E27E5728C3FE7600311F8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428181E73B727B9B52592F8C /* Pods_CrossAdsSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18DE1EDD28D379A5003D55BB /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				18DE1EDE28D379C9003D55BB /* BannerCollectionViewCell.swift */,
+				18DE1EDF28D379C9003D55BB /* BannerCollectionViewCell.xib */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		18E27E5028C3FE7600311F8A = {
+			isa = PBXGroup;
+			children = (
+				18E27E5C28C3FE7600311F8A /* CrossAdsSDK */,
+				18E27E5B28C3FE7600311F8A /* Products */,
+				18E27ECC28C404AB00311F8A /* Frameworks */,
+				D25BF9B5D080D110658A0825 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		18E27E5B28C3FE7600311F8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E27E5A28C3FE7600311F8A /* CrossAdsSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E27E5C28C3FE7600311F8A /* CrossAdsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				18E27E9728C3FEB500311F8A /* Classes */,
+				18E27E5D28C3FE7600311F8A /* CrossAdsSDK.h */,
+				18E27E5E28C3FE7600311F8A /* CrossAdsSDK.docc */,
+			);
+			path = CrossAdsSDK;
+			sourceTree = "<group>";
+		};
+		18E27E9728C3FEB500311F8A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18E27E9C28C3FEB500311F8A /* CrossAdsManager.swift */,
+				18E27E9928C3FEB500311F8A /* Logger */,
+				18E27E9D28C3FEB500311F8A /* Managers */,
+				18E27EA128C3FEB500311F8A /* Models */,
+				18E27EA328C3FEB500311F8A /* Views */,
+				18E27EB028C3FEB500311F8A /* Helpers */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		18E27E9928C3FEB500311F8A /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				18E27E9A28C3FEB500311F8A /* CrossAdsLogger.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		18E27E9D28C3FEB500311F8A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				18E27E9828C3FEB500311F8A /* CrossAdsConfigration.swift */,
+				18E27E9E28C3FEB500311F8A /* RemoteConfigurationManager.swift */,
+				18E27E9F28C3FEB500311F8A /* AdsCachManager.swift */,
+				18E27EA028C3FEB500311F8A /* AdActionsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		18E27EA128C3FEB500311F8A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18E27EA228C3FEB500311F8A /* CrossAdModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18E27EA328C3FEB500311F8A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18DE1EDD28D379A5003D55BB /* CollectionViewCells */,
+				18E27EA428C3FEB500311F8A /* TableViewCells */,
+				18E27EAE28C3FEB500311F8A /* CrossAdsInterstitialViewController.xib */,
+				18E27EAF28C3FEB500311F8A /* CrossAdsInterstitialViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18E27EA428C3FEB500311F8A /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				18E27EA528C3FEB500311F8A /* CrossAdsDetailedBannerTableViewCell.xib */,
+				18E27EA628C3FEB500311F8A /* CrossAdsBaseTableViewCell.swift */,
+				18E27EA728C3FEB500311F8A /* CrossAdsBannerTableViewCell.swift */,
+				18E27EA828C3FEB500311F8A /* CrossAdsDetailedBannerTableViewCell.swift */,
+				18E27EA928C3FEB500311F8A /* CrossAdsInterstitialTableViewCell.swift */,
+				18E27EAA28C3FEB500311F8A /* CrossAdsInterstitialTableViewCell.xib */,
+				18E27EAB28C3FEB500311F8A /* CrossAdsBannerTableViewCell.xib */,
+				18E27EAC28C3FEB500311F8A /* CrossAdsMediumTableViewCell.xib */,
+				18E27EAD28C3FEB500311F8A /* CrossAdsMediumTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		18E27EB028C3FEB500311F8A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				18E27EB128C3FEB500311F8A /* ColorExtentions.swift */,
+				18E27EB228C3FEB500311F8A /* TableViewExtentions.swift */,
+				18DE1EE228D37A22003D55BB /* CollectionViewExtentions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		18E27ECC28C404AB00311F8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18E27F0728C4053800311F8A /* Pods_CrossPromotionWithFirebase.framework */,
+				18E27EED28C4050700311F8A /* FirebaseABTesting.framework */,
+				18E27EEE28C4050700311F8A /* FirebaseCore.framework */,
+				18E27EEF28C4050700311F8A /* FirebaseCoreDiagnostics.framework */,
+				18E27EF028C4050700311F8A /* FirebaseCoreInternal.framework */,
+				18E27EF128C4050700311F8A /* FirebaseInstallations.framework */,
+				18E27EF228C4050700311F8A /* FirebaseRemoteConfig.framework */,
+				18E27EF328C4050700311F8A /* GoogleAppMeasurement.xcframework */,
+				18E27EF428C4050700311F8A /* GoogleAppMeasurementIdentitySupport.xcframework */,
+				18E27EF528C4050700311F8A /* GoogleDataTransport.framework */,
+				18E27EF628C4050700311F8A /* GoogleUtilities.framework */,
+				18E27EF728C4050700311F8A /* Kingfisher.framework */,
+				18E27EF828C4050700311F8A /* nanopb.framework */,
+				18E27EF928C4050700311F8A /* Pods_CrossPromotionWithFirebase.framework */,
+				18E27EFA28C4050700311F8A /* FBLPromises.framework */,
+				18E27EEA28C404E600311F8A /* Kingfisher.framework */,
+				18E27ED128C404D900311F8A /* FirebaseABTesting.framework */,
+				18E27ED228C404D900311F8A /* FirebaseAnalytics.xcframework */,
+				18E27ED328C404D900311F8A /* FirebaseCore.framework */,
+				18E27ED428C404D900311F8A /* FirebaseCoreDiagnostics.framework */,
+				18E27ED528C404D900311F8A /* FirebaseCoreInternal.framework */,
+				18E27ED628C404D900311F8A /* FirebaseInstallations.framework */,
+				18E27ED728C404D900311F8A /* FirebaseRemoteConfig.framework */,
+				18E27ED828C404D900311F8A /* Pods_CrossPromotionWithFirebase.framework */,
+				18E27ECD28C404AB00311F8A /* Pods_CrossPromotionWithFirebase.framework */,
+				783C94E9B04EAB611AA4F378 /* Pods_CrossAdsSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D25BF9B5D080D110658A0825 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8C4CFF1F02052B047D17A91 /* Pods-CrossAdsSDK.debug.xcconfig */,
+				D7698FFE36E3717E8361B5D3 /* Pods-CrossAdsSDK.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		18E27E5528C3FE7600311F8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E27E6028C3FE7600311F8A /* CrossAdsSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18E27E5928C3FE7600311F8A /* CrossAdsSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E27E6328C3FE7600311F8A /* Build configuration list for PBXNativeTarget "CrossAdsSDK" */;
+			buildPhases = (
+				B11069C3218582C9DC23A6C6 /* [CP] Check Pods Manifest.lock */,
+				18E27E5528C3FE7600311F8A /* Headers */,
+				18E27E5628C3FE7600311F8A /* Sources */,
+				18E27E5728C3FE7600311F8A /* Frameworks */,
+				18E27E5828C3FE7600311F8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrossAdsSDK;
+			productName = CrossAdsSDK;
+			productReference = 18E27E5A28C3FE7600311F8A /* CrossAdsSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E27E5128C3FE7600311F8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					18E27E5928C3FE7600311F8A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 18E27E5428C3FE7600311F8A /* Build configuration list for PBXProject "CrossAdsSDK" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E27E5028C3FE7600311F8A;
+			productRefGroup = 18E27E5B28C3FE7600311F8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E27E5928C3FE7600311F8A /* CrossAdsSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E27E5828C3FE7600311F8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E27EC128C3FEB500311F8A /* CrossAdsBannerTableViewCell.xib in Resources */,
+				18E27EBB28C3FEB500311F8A /* CrossAdsDetailedBannerTableViewCell.xib in Resources */,
+				18E27EC228C3FEB500311F8A /* CrossAdsMediumTableViewCell.xib in Resources */,
+				18E27EC428C3FEB500311F8A /* CrossAdsInterstitialViewController.xib in Resources */,
+				18DE1EE128D379C9003D55BB /* BannerCollectionViewCell.xib in Resources */,
+				18E27EC028C3FEB500311F8A /* CrossAdsInterstitialTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B11069C3218582C9DC23A6C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrossAdsSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E27E5628C3FE7600311F8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E27EC628C3FEB500311F8A /* ColorExtentions.swift in Sources */,
+				18DE1EE328D37A22003D55BB /* CollectionViewExtentions.swift in Sources */,
+				18E27EBC28C3FEB500311F8A /* CrossAdsBaseTableViewCell.swift in Sources */,
+				18E27EBF28C3FEB500311F8A /* CrossAdsInterstitialTableViewCell.swift in Sources */,
+				18E27EC328C3FEB500311F8A /* CrossAdsMediumTableViewCell.swift in Sources */,
+				18E27EB328C3FEB500311F8A /* CrossAdsConfigration.swift in Sources */,
+				18E27EB428C3FEB500311F8A /* CrossAdsLogger.swift in Sources */,
+				18E27EB928C3FEB500311F8A /* AdActionsManager.swift in Sources */,
+				18E27EBD28C3FEB500311F8A /* CrossAdsBannerTableViewCell.swift in Sources */,
+				18E27EC728C3FEB500311F8A /* TableViewExtentions.swift in Sources */,
+				18E27EB828C3FEB500311F8A /* AdsCachManager.swift in Sources */,
+				18E27EC528C3FEB500311F8A /* CrossAdsInterstitialViewController.swift in Sources */,
+				18E27EB628C3FEB500311F8A /* CrossAdsManager.swift in Sources */,
+				18E27EB728C3FEB500311F8A /* RemoteConfigurationManager.swift in Sources */,
+				18E27E5F28C3FE7600311F8A /* CrossAdsSDK.docc in Sources */,
+				18E27EBA28C3FEB500311F8A /* CrossAdModel.swift in Sources */,
+				18E27EBE28C3FEB500311F8A /* CrossAdsDetailedBannerTableViewCell.swift in Sources */,
+				18DE1EE028D379C9003D55BB /* BannerCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18E27E6128C3FE7600311F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		18E27E6228C3FE7600311F8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		18E27E6428C3FE7600311F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8C4CFF1F02052B047D17A91 /* Pods-CrossAdsSDK.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseABTesting/FirebaseABTesting.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreInternal/FirebaseCoreInternal.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations/FirebaseInstallations.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseRemoteConfig/FirebaseRemoteConfig.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+				);
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lynx.CrossAds.CrossAdsSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18E27E6528C3FE7600311F8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7698FFE36E3717E8361B5D3 /* Pods-CrossAdsSDK.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseABTesting/FirebaseABTesting.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreInternal/FirebaseCoreInternal.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations/FirebaseInstallations.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseRemoteConfig/FirebaseRemoteConfig.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+				);
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lynx.CrossAds.CrossAdsSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E27E5428C3FE7600311F8A /* Build configuration list for PBXProject "CrossAdsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E27E6128C3FE7600311F8A /* Debug */,
+				18E27E6228C3FE7600311F8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E27E6328C3FE7600311F8A /* Build configuration list for PBXNativeTarget "CrossAdsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E27E6428C3FE7600311F8A /* Debug */,
+				18E27E6528C3FE7600311F8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E27E5128C3FE7600311F8A /* Project object */;
+}
