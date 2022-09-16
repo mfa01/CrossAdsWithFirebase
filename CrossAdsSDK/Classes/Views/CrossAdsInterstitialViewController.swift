@@ -19,8 +19,7 @@ public class CrossAdsInterstitialViewController: UIViewController {
     var presentation: Presentation?
 
     public static func showAd(adModel: CrossAdModel?, placeholderImage: UIImage?, inVC: UIViewController) {
-        let bundle = Bundle(for: CrossAdsInterstitialViewController.self)
-        let vc = CrossAdsInterstitialViewController.init(nibName: "CrossAdsInterstitialViewController", bundle: bundle)
+        let vc = CrossAdsInterstitialViewController.init(nibName: "CrossAdsInterstitialViewController", bundle: Bundle.getBundleForClass(cl: CrossAdsInterstitialTableViewCell.self))
         vc.presentation = Presentation(adModel: adModel, placeholderImage: placeholderImage)
         vc.modalPresentationStyle = .fullScreen
         inVC.present(vc, animated: true)

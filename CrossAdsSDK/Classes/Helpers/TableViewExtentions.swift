@@ -11,13 +11,13 @@ import UIKit
 public extension UITableView {
     func registerCrossAdsCells() {
         
-        register(UINib(nibName: "CrossAdsBannerTableViewCell", bundle: CrossAdsBannerTableViewCell.bundle), forCellReuseIdentifier: CrossAdsBannerTableViewCell.identifier)
+        register(UINib(nibName: "CrossAdsBannerTableViewCell", bundle: Bundle.getBundleForClass(cl: CrossAdsBannerTableViewCell.self)), forCellReuseIdentifier: CrossAdsBannerTableViewCell.identifier)
         
-        register(UINib(nibName: "CrossAdsDetailedBannerTableViewCell", bundle: CrossAdsDetailedBannerTableViewCell.bundle), forCellReuseIdentifier: CrossAdsDetailedBannerTableViewCell.identifier)
+        register(UINib(nibName: "CrossAdsDetailedBannerTableViewCell", bundle: Bundle.getBundleForClass(cl: CrossAdsDetailedBannerTableViewCell.self)), forCellReuseIdentifier: CrossAdsDetailedBannerTableViewCell.identifier)
         
-        register(UINib(nibName: "CrossAdsMediumTableViewCell", bundle: CrossAdsMediumTableViewCell.bundle), forCellReuseIdentifier: CrossAdsMediumTableViewCell.identifier)
+        register(UINib(nibName: "CrossAdsMediumTableViewCell", bundle: Bundle.getBundleForClass(cl: CrossAdsMediumTableViewCell.self)), forCellReuseIdentifier: CrossAdsMediumTableViewCell.identifier)
         
-        register(UINib(nibName: "CrossAdsInterstitialTableViewCell", bundle: CrossAdsInterstitialTableViewCell.bundle), forCellReuseIdentifier: CrossAdsInterstitialTableViewCell.identifier)
+        register(UINib(nibName: "CrossAdsInterstitialTableViewCell", bundle: Bundle.getBundleForClass(cl: CrossAdsInterstitialTableViewCell.self)), forCellReuseIdentifier: CrossAdsInterstitialTableViewCell.identifier)
     }
     
     func dequeueCrossAdsCell(crossAd: CrossAdModel, placeholderImage: UIImage?) -> CrossAdsBaseTableViewCell {
@@ -51,9 +51,9 @@ public extension UITableView {
     }
 }
 
-extension CrossAdsBaseTableViewCell {
-    static var bundle: Bundle? {
-        let bundleClass = Bundle(for: self.self)
+extension Bundle {
+    static func getBundleForClass(cl: AnyClass) -> Bundle? {
+        let bundleClass = Bundle(for: cl.self)
         let data = bundleClass.url(forResource: "CrossAdsSDK", withExtension: "bundle")
         if let data = data {
             return Bundle(url: data)
