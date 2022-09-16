@@ -15,9 +15,8 @@ Pod::Spec.new do |s|
     s.static_framework = true
 
     s.ios.deployment_target = '12.0'
-    #s.ios.vendored_frameworks = 'CrossAdsSDK.xcframework'
+    spec.ios.vendored_frameworks = 'CrossAdsSDK/CrossAdsSDK.xcframework'
     s.requires_arc = true
     s.swift_version = '5.0'
     # s.source_files = 'CrossAdsSDK/Classes/**/*'
-    spec.ios.vendored_frameworks = 'CrossAdsSDK/CrossAdsSDK.xcframework'
 end
