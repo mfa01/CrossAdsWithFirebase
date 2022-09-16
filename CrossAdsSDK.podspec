@@ -19,4 +19,7 @@ Pod::Spec.new do |s|
     s.requires_arc = true
     s.swift_version = '5.0'
     s.source_files = 'CrossAdsSDK/Classes/**/*'
+    s.resource_bundles = {
+     'CrossAdsSDKBundle' => ['CrossAdsSDK/Classes/**/*.xib']
+    }
 end
