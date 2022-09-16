@@ -16,7 +16,7 @@ public extension UITableView {
         register(UINib(nibName: "CrossAdsInterstitialTableViewCell", bundle: .currentBundle), forCellReuseIdentifier: CrossAdsInterstitialTableViewCell.identifier)
     }
     
-    func dequeueCrossAdsCell(crossAd: CrossAdModel, placeholderImage: UIImage?, height: CGFloat?) -> CrossAdsBaseTableViewCell {
+    func dequeueCrossAdsCell(crossAd: CrossAdModel, placeholderImage: UIImage?) -> CrossAdsBaseTableViewCell {
         guard let type = crossAd.type else {
             print("CrossAdsError: Unknown Type, please use one of the  available types ( bannerImage, detaildBanner, medium, interstitial)")
             return CrossAdsBaseTableViewCell()
@@ -27,7 +27,7 @@ public extension UITableView {
             registerCrossAdsCells()
             cell = dequeueCell(type: type)
         }
-        cell?.presentation = Presentation(adModel: crossAd, placeholderImage: placeholderImage, adHeight: height)
+        cell?.presentation = Presentation(adModel: crossAd, placeholderImage: placeholderImage, adHeight: crossAd.height)
         return cell ?? CrossAdsBaseTableViewCell()
     }
     

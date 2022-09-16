@@ -195,13 +195,13 @@
 		18E27EA428C3FEB500311F8A /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
-				18E27EA528C3FEB500311F8A /* CrossAdsDetailedBannerTableViewCell.xib */,
 				18E27EA628C3FEB500311F8A /* CrossAdsBaseTableViewCell.swift */,
 				18E27EA728C3FEB500311F8A /* CrossAdsBannerTableViewCell.swift */,
+				18E27EAB28C3FEB500311F8A /* CrossAdsBannerTableViewCell.xib */,
 				18E27EA828C3FEB500311F8A /* CrossAdsDetailedBannerTableViewCell.swift */,
+				18E27EA528C3FEB500311F8A /* CrossAdsDetailedBannerTableViewCell.xib */,
 				18E27EA928C3FEB500311F8A /* CrossAdsInterstitialTableViewCell.swift */,
 				18E27EAA28C3FEB500311F8A /* CrossAdsInterstitialTableViewCell.xib */,
-				18E27EAB28C3FEB500311F8A /* CrossAdsBannerTableViewCell.xib */,
 				18E27EAC28C3FEB500311F8A /* CrossAdsMediumTableViewCell.xib */,
 				18E27EAD28C3FEB500311F8A /* CrossAdsMediumTableViewCell.swift */,
 			);

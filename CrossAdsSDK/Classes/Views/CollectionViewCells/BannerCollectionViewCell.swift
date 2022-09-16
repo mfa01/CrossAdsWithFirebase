@@ -31,5 +31,17 @@ public class BannerCollectionViewCell: UICollectionViewCell {
         } else {
             bannerImageView.image = presentation.placeholderImage
         }
+        
+        let gesture = UITapGestureRecognizer(target: self, action:  #selector (self.adTapped (_:)))
+        contentView.addGestureRecognizer(gesture)
+    }
+    
+    @objc func adTapped(_ sender:UITapGestureRecognizer){
+        // do other task
+        adTapped()
+    }
+    
+    func adTapped() {
+        AdActionsManager.adTapped(adModel: presentation?.adModel)
     }
 }

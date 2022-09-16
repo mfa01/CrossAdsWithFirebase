@@ -4,9 +4,11 @@
 //
 //  Created by Mabed on 27/06/2022.
 //
-//upload to git
-//try sample ads: add examples of all kinds of apps (FB,twitter,whatsapp,telegram,tiktok,insta,snapcaht,web,url,appstore)
-//handle actions of all types of ads real samples (banner,image,insatall,meduim)
+/*
+-order in the sample is not correct
+-banner + collection heights??
+-try sample ads: FB,twitter
+*/
 //add my ad requests
 //readme file
 

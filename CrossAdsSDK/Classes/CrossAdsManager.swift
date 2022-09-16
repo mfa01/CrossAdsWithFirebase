@@ -32,6 +32,12 @@ public class CrossAds {
         items.filter({ $0.type == .bannerImageCollectionView })
     }
 
+    public func dropAdItem(type: CrossAdType? = nil) {
+        let index = items.firstIndex { $0.type == type }
+        if let index = index {
+            items.remove(at: index)
+        }
+    }
     public func pickAdItem(type: CrossAdType? = nil) -> CrossAdModel? {
         switch type {
         case .medium:

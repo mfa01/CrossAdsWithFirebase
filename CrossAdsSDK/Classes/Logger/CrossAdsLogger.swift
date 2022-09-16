@@ -24,7 +24,22 @@ struct CrossAdsLogger {
           AnalyticsParameterContentType: "View",
         ])
     }
+    func adViewed(adModel: CrossAdModel?) {
+        let num = AdsCacheManager.shared.numberOfAdViewing(id: adModel?.id)
+        if let freq = adModel?.view_freq, freq >= num.intValue {
+            print("AdActionsManager: Ad Viewed \(adModel?.id ?? "-")")
+            logViewEvent(id: adModel?.id)
+            AdsCacheManager.shared.adViewed(id: adModel?.id)
+        }
+    }
     
+    func adTapped(adModel: CrossAdModel?) {
+        let num = AdsCacheManager.shared.numberAdTapping(id: adModel?.id)
+        if let freq = adModel?.click_freq, freq >= num.intValue {
+            AdsCacheManager.shared.adTapped(id: adModel?.id)
+            logTappingEvent(id: adModel?.id)
+        }
+    }
     func logTappingEvent(id: String?) {
         guard let id = id else {
             return

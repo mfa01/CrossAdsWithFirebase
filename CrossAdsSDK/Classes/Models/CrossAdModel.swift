@@ -34,4 +34,5 @@ public struct CrossAdModel: Codable, Advertizable {
     public var click_freq: Int?
     public var backgroundColor: String?
     public var allowDismissAfter: Double?
+    public var height: CGFloat?
 }

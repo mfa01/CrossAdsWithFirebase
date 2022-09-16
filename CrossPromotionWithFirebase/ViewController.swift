@@ -72,6 +72,10 @@ class ViewController: UIViewController {
             tableItems.insert(ad, at: 29)
         }
     }
+    
+    func fillAllCrossAds() {
+        tableItems.insert(contentsOf: CrossAds.shared.items, at: 0)
+    }
 
     @IBAction func showInterstitialAds(_ sender: Any) {
         let interstitialAd = CrossAds.shared.adsInterstitialType.first
@@ -96,11 +100,12 @@ extension ViewController: UITableViewDataSource {
             tableItems.insert(ad, at: indexPath.row)
 //            tableView.reloadRows(at: [indexPath], with: .automatic)
             tableView.reloadData()
+            CrossAds.shared.dropAdItem(type: ad.type)
         }
         
         let item = tableItems[indexPath.row]
         if let item = item as? CrossAdModel {
-            let cell = tableView.dequeueCrossAdsCell(crossAd: item, placeholderImage: nil, height: nil)
+            let cell = tableView.dequeueCrossAdsCell(crossAd: item, placeholderImage: nil)
             return cell
         }
         
