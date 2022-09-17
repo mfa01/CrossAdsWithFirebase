@@ -38,7 +38,7 @@ Promote your apps for free, the idea is about adding native ads fetched from fir
 
 ### Add Pod   
 ```sh
-pod 'CrossAdsSDK', :git => 'https://github.com/mfa01/CrossAdsWithFirebase.git', :tag => '0.0.2'
+pod 'CrossAdsSDK', :git => 'https://github.com/mfa01/CrossAdsWithFirebase.git'
 ```
 
 #### Also you can specify the tag to back to older versions
