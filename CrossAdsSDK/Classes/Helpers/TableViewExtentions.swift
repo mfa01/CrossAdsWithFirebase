@@ -58,6 +58,6 @@ extension Bundle {
         if let data = data {
             return Bundle(url: data)
         }
-        return nil
+        return Bundle(for: cl.self)
     }
 }

@@ -272,7 +272,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "17"
             endingLineNumber = "17"
-            landmarkName = "dequeueBannerCell(crossAd:placeholderImage:height:indexPath:)"
+            landmarkName = "dequeueBannerCell(crossAd:placeholderImage:indexPath:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -288,7 +288,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "18"
             endingLineNumber = "18"
-            landmarkName = "dequeueBannerCell(crossAd:placeholderImage:height:indexPath:)"
+            landmarkName = "dequeueBannerCell(crossAd:placeholderImage:indexPath:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

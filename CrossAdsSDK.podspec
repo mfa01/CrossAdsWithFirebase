@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name              = 'CrossAdsSDK'
-    s.version           = '0.0.8'
+    s.version           = '0.1.0'
     s.summary           = 'Cross ads sdk, by firebase config power'
     s.homepage          = 'http://lynxmob.com/'
     s.dependency       'FirebaseAnalytics'

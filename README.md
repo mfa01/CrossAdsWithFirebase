@@ -6,8 +6,8 @@ Promote your apps for free, the idea is about adding native ads fetched from fir
 
 
 ### Why Firebase Configuration?
-- To take advantage of custumizing you ads per country or device, .....
-- To get the analytics of the ads tap/view on the same firebase anayltics
+- To take advantage of customizing your ads per country or device, ..... - To get the analytics of the ads tap/view on the same firebase analytics
+
 
 ## Ad Types
 ### "bannerImage"
@@ -217,11 +217,10 @@ Dequeue cell
 let cell = collectionView.dequeueBannerCell(crossAd: CrossAds.shared.adsBannerCollectionViewType[indexPath.row], placeholderImage: nil, indexPath: indexPath)
 ```
 
-
-
 -------
 
 ## Ad Model
+```sh
     public var id: String
     public var image: String?
     public var mainImage: String?
@@ -230,12 +229,16 @@ let cell = collectionView.dequeueBannerCell(crossAd: CrossAds.shared.adsBannerCo
     public var subTitle: String?
     public var type: CrossAdType?
     public var url: String?
+    public var backupUrl: String?
     public var view_freq: Int?
     public var click_freq: Int?
     public var backgroundColor: String?
     public var allowDismissAfter: Double?
-
+    public var height: CGFloat?
+```
 
 ## Caching
+The ad can be picked base on frequency set in firebase config 'view_freq', the ad shown will not be available if it was shown more than 'view_freq'
 
 ## Firebase Analytics Configuration
+The much more configurations for firebase analytics, like to add new custom flags in firebase, to make accurate measurements about number of views/clicks on specific ad campaign
