@@ -36,4 +36,5 @@ public struct CrossAdModel: Codable, Advertizable {
     public var backgroundColor: String?
     public var allowDismissAfter: Double?
     public var height: CGFloat?
+    public var location: String?
 }
