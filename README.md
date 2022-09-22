@@ -206,6 +206,38 @@ lazy var tableItems: [Advertizable] = {
     return items
 }()
 ```
+-------
+
+## Showing CollectionView Banner Ads in ContainerView
+### if you want a ready collection view of banners with filled colllection view ads, just use 'FeaturedItemsViewController' and do the following after remote config fetched
+
+Example
+- Set duration to zero if you dont want automated scrolling
+- Check the sample code 
+```sh
+    func addFeaturedItems() {
+        
+        let presentation = FeaturedItemsViewController.ViewData(
+            pagerTintColor: .blue,
+            pagerCurrentPageColor: .green,
+            ads: CrossAds.shared.adsBannerCollectionViewType,
+            duration: 2
+        )
+        
+        let controller = FeaturedItemsViewController.instantiate(presentation: presentation)
+        addChild(controller)
+        controller.view.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(controller.view)
+        NSLayoutConstraint.activate([
+            controller.view.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            controller.view.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            controller.view.topAnchor.constraint(equalTo: view.topAnchor),
+            controller.view.heightAnchor.constraint(equalToConstant: 300)
+        ])
+        controller.didMove(toParent: self)
+    }
+```
+-------
 
 ## Showing Ad in UICollectionView
 ### Types can be shown in UICollectionView: 'bannerImageCollectionView'
@@ -235,6 +267,7 @@ let cell = collectionView.dequeueBannerCell(crossAd: CrossAds.shared.adsBannerCo
     public var backgroundColor: String?
     public var allowDismissAfter: Double?
     public var height: CGFloat?
+    public var location: String?
 ```
 
 ## Caching
