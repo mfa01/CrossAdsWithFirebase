@@ -18,7 +18,7 @@ struct SampleStruct: Advertizable {
 class ViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
-    @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var stackView: UIStackView!
     
     lazy var tableItems: [Advertizable] = {
         var items: [SampleStruct] = []
@@ -32,8 +32,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let config = CrossAdsConfigration(analyticsEnabled: true, analyticsLogTitle: "TestCrossAds", configName: "MyAppXCrossAds")
-        collectionView.delegate = self
-        collectionView.registerCrossAdsCells()
+
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             CrossAds.shared.start(config: config) { [weak self ] (ads, remoteConfig, error) in
                 
@@ -43,10 +42,32 @@ class ViewController: UIViewController {
                 // Example2 : Fill ads automatically, need implement willdisplay delegate
                 
                 self?.tableView.reloadData()
-                self?.collectionView.reloadData()
+                self?.addFeaturedItems()
             }
         }
+    }
+    
+    func addFeaturedItems() {
         
+        let presentation = FeaturedItemsViewController.ViewData(
+            pagerTintColor: .blue,
+            pagerCurrentPageColor: .green,
+            ads: CrossAds.shared.adsBannerCollectionViewType,
+            duration: 2
+        )
+        
+        let controller = FeaturedItemsViewController.instantiate(presentation: presentation)
+        addChild(controller)
+        controller.view.translatesAutoresizingMaskIntoConstraints = false
+        stackView.insertArrangedSubview(controller.view, at: 0)
+        NSLayoutConstraint.activate([
+//            controller.view.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 10),
+//            controller.view.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10),
+//            controller.view.topAnchor.constraint(equalTo: view.topAnchor, constant: 10),
+//            controller.view.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -10)
+            controller.view.heightAnchor.constraint(equalToConstant: 200)
+        ])
+        controller.didMove(toParent: self)
     }
     
     func fillCrossAds() {
@@ -112,26 +133,4 @@ extension ViewController: UITableViewDataSource {
         cell.detailTextLabel?.text = ((item as? SampleStruct)?.age ?? "") + "index:\(indexPath.row)"
         return cell
     }
-}
-
-extension ViewController: UICollectionViewDataSource {
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueBannerCell(crossAd: CrossAds.shared.adsBannerCollectionViewType[indexPath.row], placeholderImage: nil, indexPath: indexPath)
-        return cell
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        CrossAds.shared.adsBannerCollectionViewType.count
-    }
-}
-
-extension ViewController: UICollectionViewDelegateFlowLayout {
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: collectionView.frame.size.width, height: collectionView.frame.size.height)
-    }
-}
-
-extension ViewController: UICollectionViewDelegate {
-    
 }

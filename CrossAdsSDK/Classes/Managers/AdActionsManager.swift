@@ -12,13 +12,11 @@ class AdActionsManager {
     
     static func adTapped(adModel: CrossAdModel?) {
         if let first = adModel?.url,
-           let backup = adModel?.backupUrl,
-           let firstUrl = URL(string: first),
-           let backupUrl = URL(string: backup) {
+           let firstUrl = URL(string: first) {
             let application = UIApplication.shared
             if application.canOpenURL(firstUrl) {
                 application.open(firstUrl)
-            } else {
+            } else if let backup = adModel?.backupUrl, let backupUrl = URL(string: backup) {
                 application.open(backupUrl)
             }
         }

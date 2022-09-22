@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1818464428DBBB8000F129FE /* FeaturedItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1818464228DBBB8000F129FE /* FeaturedItemsViewController.swift */; };
+		1818464528DBBB8000F129FE /* FeaturedItemsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1818464328DBBB8000F129FE /* FeaturedItemsViewController.xib */; };
 		18E27E5F28C3FE7600311F8A /* CrossAdsSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 18E27E5E28C3FE7600311F8A /* CrossAdsSDK.docc */; };
 		18E27E6028C3FE7600311F8A /* CrossAdsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E27E5D28C3FE7600311F8A /* CrossAdsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18E45AAD28D51C4A00F0456D /* CrossAdsLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E45A8E28D51C4A00F0456D /* CrossAdsLogger.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1818464228DBBB8000F129FE /* FeaturedItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemsViewController.swift; sourceTree = "<group>"; };
+		1818464328DBBB8000F129FE /* FeaturedItemsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeaturedItemsViewController.xib; sourceTree = "<group>"; };
 		18E27E5A28C3FE7600311F8A /* CrossAdsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CrossAdsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E27E5D28C3FE7600311F8A /* CrossAdsSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrossAdsSDK.h; sourceTree = "<group>"; };
 		18E27E5E28C3FE7600311F8A /* CrossAdsSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CrossAdsSDK.docc; sourceTree = "<group>"; };
@@ -106,6 +110,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1818463D28DBB03500F129FE /* FeaturedItemsCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				1818464228DBBB8000F129FE /* FeaturedItemsViewController.swift */,
+				1818464328DBBB8000F129FE /* FeaturedItemsViewController.xib */,
+			);
+			path = FeaturedItemsCollectionView;
+			sourceTree = "<group>";
+		};
 		18E27E5028C3FE7600311F8A = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +224,7 @@
 		18E45A9728D51C4A00F0456D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1818463D28DBB03500F129FE /* FeaturedItemsCollectionView */,
 				18E45A9828D51C4A00F0456D /* TableViewCells */,
 				18E45A9E28D51C4A00F0456D /* CollectionViewCells */,
 				18E45AA028D51C4A00F0456D /* CrossAdsInterstitialViewController.swift */,
@@ -345,6 +359,7 @@
 				18E45AD828D51FF600F0456D /* CrossAdsMediumTableViewCell.xib in Resources */,
 				18E45AD728D51FF600F0456D /* CrossAdsBannerTableViewCell.xib in Resources */,
 				18E45AD428D51FF600F0456D /* CrossAdsInterstitialViewController.xib in Resources */,
+				1818464528DBBB8000F129FE /* FeaturedItemsViewController.xib in Resources */,
 				18E45AD528D51FF600F0456D /* cross_ads_closeButton.png in Resources */,
 				18E45AD328D51FF600F0456D /* CrossAdsDetailedBannerTableViewCell.xib in Resources */,
 				18E45AD928D51FF600F0456D /* BannerCollectionViewCell.xib in Resources */,
@@ -398,6 +413,7 @@
 				18E45ABA28D51C4A00F0456D /* CrossAdsInterstitialViewController.swift in Sources */,
 				18E45AAD28D51C4A00F0456D /* CrossAdsLogger.swift in Sources */,
 				18E45AB928D51C4A00F0456D /* BannerCollectionViewCell.swift in Sources */,
+				1818464428DBBB8000F129FE /* FeaturedItemsViewController.swift in Sources */,
 				18E45ABD28D51C4A00F0456D /* TableViewExtentions.swift in Sources */,
 				18E45AB028D51C4A00F0456D /* RemoteConfigurationManager.swift in Sources */,
 				18E45AB528D51C4A00F0456D /* CrossAdsBannerTableViewCell.swift in Sources */,
@@ -556,7 +572,7 @@
 				);
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -601,7 +617,7 @@
 				);
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

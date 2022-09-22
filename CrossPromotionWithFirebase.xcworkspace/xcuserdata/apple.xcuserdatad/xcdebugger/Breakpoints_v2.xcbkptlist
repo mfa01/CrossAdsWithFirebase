@@ -222,8 +222,8 @@
             filePath = "CrossAdsSDK/Classes/Managers/AdActionsManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
             landmarkName = "adViewed(adModel:)"
             landmarkType = "7">
             <Locations>
@@ -290,6 +290,54 @@
             endingLineNumber = "18"
             landmarkName = "dequeueBannerCell(crossAd:placeholderImage:indexPath:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B4C1D1E7-649B-458E-8C2A-C33F0ED23617"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CrossAdsSDK/Classes/Managers/AdActionsManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "adTapped(adModel:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B4C1D1E7-649B-458E-8C2A-C33F0ED23617 - 3bc37532d0ff67ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static CrossAdsSDK.AdActionsManager.adTapped(adModel: Swift.Optional&lt;CrossAdsSDK.CrossAdModel&gt;) -&gt; ()"
+                  moduleName = "CrossAdsSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/GitFactory/CrossPromotionWithFirebase/CrossAdsSDK/Classes/Managers/AdActionsManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "1057">
+               </Location>
+               <Location
+                  uuid = "B4C1D1E7-649B-458E-8C2A-C33F0ED23617 - 3bc37532d0ff67ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static CrossAdsSDK.AdActionsManager.adTapped(adModel: Swift.Optional&lt;CrossAdsSDK.CrossAdModel&gt;) -&gt; ()"
+                  moduleName = "CrossAdsSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/GitFactory/CrossPromotionWithFirebase/CrossAdsSDK/Classes/Managers/AdActionsManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "1915">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

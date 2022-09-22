@@ -35,6 +35,7 @@ public class BannerCollectionViewCell: UICollectionViewCell {
         let gesture = UITapGestureRecognizer(target: self, action:  #selector (self.adTapped (_:)))
         contentView.addGestureRecognizer(gesture)
     }
+   
     
     @objc func adTapped(_ sender:UITapGestureRecognizer){
         // do other task

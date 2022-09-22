@@ -18,16 +18,16 @@ struct CrossAdsLogger {
             return
         }
         let configName = CrossAds.shared.config?.configName ?? ""
-        Analytics.logEvent("CrossAds-\(configName)", parameters: [
-          AnalyticsParameterItemID: "\(configName)-View \(id)",
-          AnalyticsParameterItemName: "Ad View",
+        Analytics.logEvent("CrossAds_\(configName)", parameters: [
+          AnalyticsParameterItemID: "\(configName)_View \(id)",
+          AnalyticsParameterItemName: "Ad_View",
           AnalyticsParameterContentType: "View",
         ])
     }
     func adViewed(adModel: CrossAdModel?) {
         let num = AdsCacheManager.shared.numberOfAdViewing(id: adModel?.id)
         if let freq = adModel?.view_freq, freq >= num.intValue {
-            print("AdActionsManager: Ad Viewed \(adModel?.id ?? "-")")
+            print("AdActionsManager:_Ad_Viewed_\(adModel?.id ?? "_")")
             logViewEvent(id: adModel?.id)
             AdsCacheManager.shared.adViewed(id: adModel?.id)
         }
@@ -45,9 +45,9 @@ struct CrossAdsLogger {
             return
         }
         let configName = CrossAds.shared.config?.configName ?? ""
-        Analytics.logEvent("CrossAds-\(configName)", parameters: [
-          AnalyticsParameterItemID: "\(configName)-Click \(id)",
-          AnalyticsParameterItemName: "Ad Click",
+        Analytics.logEvent("CrossAds_\(configName)", parameters: [
+          AnalyticsParameterItemID: "\(configName)_Click \(id)",
+          AnalyticsParameterItemName: "Ad_Click",
           AnalyticsParameterContentType: "Click",
         ])
     }
