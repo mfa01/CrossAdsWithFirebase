@@ -9,9 +9,9 @@ import Foundation
 import FirebaseRemoteConfig
 import FirebaseCore
 
-public class CrossAds {
+@objc public class CrossAds: NSObject {
     
-    public static let shared = CrossAds()
+    @objc public static let shared = CrossAds()
     lazy private var remoteManager = RemoteConfigurationManager()
     var config: CrossAdsConfigration?
     public var items: [CrossAdModel] = []
