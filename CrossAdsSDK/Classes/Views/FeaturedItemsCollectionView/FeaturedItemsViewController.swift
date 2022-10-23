@@ -73,13 +73,17 @@ public class FeaturedItemsViewController: UIViewController {
         bottomConstraint.constant = presentation.bottom
     }
     
+    var clockCounter = 0
     func startTimer(duration: CGFloat) {
-        DispatchQueue.main.asyncAfter(deadline: .now() + duration) {
-            var page = self.pager.currentPage + 1
-            if page >= self.pager.numberOfPages {
-                page = 0
+        clockCounter += 1
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            if (self.clockCounter+Int(duration)+1)%Int(duration) == 0, self.viewIfLoaded?.window != nil {
+                var page = self.pager.currentPage + 1
+                if page >= self.pager.numberOfPages {
+                    page = 0
+                }
+                self.collectionView.scrollToItem(at: IndexPath(row: page, section: 0), at: .centeredHorizontally, animated: true)
             }
-            self.collectionView.scrollToItem(at: IndexPath(row: page, section: 0), at: .centeredHorizontally, animated: true)
             self.startTimer(duration: duration)
         }
     }
@@ -114,5 +118,6 @@ extension FeaturedItemsViewController: UICollectionViewDelegate {
         if let ip = collectionView.indexPathForItem(at: center) {
             pager.currentPage = ip.row
         }
+        clockCounter = 0
     }
 }
